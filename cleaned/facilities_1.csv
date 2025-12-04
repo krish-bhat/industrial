@@ -1,0 +1,1211 @@
+facility_id,facility_name,lot_number,has_visitor_parking,campus_region,street_address,zip_code
+2,Olin House,None,None,None,130 N Prospect Ave,53726-4073
+4,Olin House Garage,None,None,None,130 N Prospect Ave,53726-4073
+6,Pyle Center,None,None,None,702 Langdon St,53706-1420
+7,Lincoln Statue,None,None,None,Bascom Mall,53715-0000
+8,Memorial Union,None,None,None,800 Langdon St,53706-1419
+10,Tong Family Marina,None,None,None,800 Langdon St,53706-1419
+11,Vet Medicine Building-Charmany,None,None,None,5801 Mineral Point Rd,53719-4466
+13,Hagenah Fountain,None,None,None,Library Mall,53703-0000
+15,Memorial Library,None,None,None,728 State St,53706-1418
+16,"Historical Society, State",None,None,None,816 State St,53703-1417
+17,Vet Medicine-Charmany-Service Building,None,None,None,5901 Mineral Point Rd,53719-4467
+18,"White Hall, Helen C",None,None,None,600 N Park St,53706-1403
+19,Civil War Guard House,None,None,None,Camp Randall Memorial Park,53715-0000
+20,Armory & Gymnasium,None,None,None,716 Langdon St,53706-1400
+21,McClain Athletic Facility,None,None,None,1475 Engineering Dr,53706-1607
+22,Camp Randall Stadium,None,None,None,1440 Monroe St,53711-2051
+23,Athletic Ticket Shelter-Portable,None,None,None,For Business Services Purposes,00000-0000
+24,Camp Randall Memorial Arch,None,None,None,200 N Randall Ave,53715-1544
+25,Camp Randall Sports Center (Inactive),None,None,None,1430 Monroe St,53711-2501
+26,Nicholas Recreation Center,None,None,None,797 W Dayton St,53715-1122
+27,University Bay Recreation Fields Building,None,None,None,1301 University Bay Dr,53706-0000
+29,Field House,None,None,None,1450 Monroe St,53711-2051
+32,Lathrop Hall,None,None,None,1050 University Ave,53706-1304
+33,"Bock Laboratories, Robert M",None,None,None,1525 Linden Dr,53706-1534
+34,Rennebohm Hall,None,None,None,777 Highland Ave,53705-2222
+35,Meiklejohn House,None,None,None,228 N Charter St,53715-2366
+36,Forest Products Laboratory,None,None,None,One Gifford Pinchot Dr,53705-2398
+37,Park-Langdon Information Kiosk,None,None,None,800 Langdon St,53706-1419
+38,Nielsen Tennis Stadium,None,None,None,1000 Highland Ave,53705-2272
+39,WARF Office Building,None,None,None,610 Walnut St,53726-2336
+40,"McClimon Memorial Track, Dan",None,None,None,702 Walnut St,53726-0000
+41,McClimon Track Restrooms & Storage,None,None,None,702 Walnut St,53726-0000
+43,McClimon Memorial Track Press Box,None,None,None,702 Walnut St,53726-0000
+44,"Cooper Hall, Signe Skott",None,None,None,701 Highland Ave,53705-2202
+45,Biotron Laboratory,None,None,None,2115 Observatory Dr,53726-1012
+46,"Social Science Bldg, Sewell, William H",None,None,None,1180 Observatory Dr,53706-1320
+47,"Chemistry Bldg, F Daniels & J H Mathews",None,None,None,1101 University Ave,53706-1322
+48,"Van Vleck Hall, E B",None,None,None,480 Lincoln Dr,53706-1325
+49,Heating and Cooling Plant-Walnut St,None,None,None,505 Walnut St,53726-2334
+50,Bascom Hall,None,None,None,500 Lincoln Dr,53706-1314
+51,South Hall,None,None,None,1055 Bascom Mall,53706-1315
+52,North Hall,None,None,None,1050 Bascom Mall,53706-1316
+53,Science Hall,None,None,None,550 N Park St,53706-1404
+54,Birge Hall,None,None,None,430 Lincoln Dr,53706-1313
+55,"Chamberlin Hall, Thomas C",None,None,None,1150 University Ave,53706-1302
+56,"Ingraham Hall, Mark H",None,None,None,1155 Observatory Dr,53706-1319
+57,Sterling Hall,None,None,None,475 N Charter St,53706-1507
+60,Microbial Sciences Building,None,None,None,1550 Linden Dr,53706-1521
+61,Park St N 604,None,None,None,604 N Park St,53706-0000
+62,Lake Safety Tower,None,None,None,602 N Park St,53706-0000
+70,Agricultural Hall,None,None,None,1450 Linden Dr,53706-1522
+71,Hoard Memorial,None,None,None,Henry Mall,53706-0000
+72,Agricultural Dean's Residence,None,None,None,620 Babcock Dr,53706-1210
+73,Allen Centennial Garden,None,None,None,620 Babcock Dr,53706-1210
+75,Greenhouse-King Hall,None,None,None,1475 Observatory Dr,53706-1209
+76,"Smith Hall, Hiram",None,None,None,1545 Observatory Dr,53706-1215
+77,"Smith Annex, Hiram",None,None,None,1555 Observatory Dr,53706-1215
+78,Agricultural Bulletin Building,None,None,None,1535 Observatory Dr,53706-1215
+79,Steenbock Memorial Library,None,None,None,550 Babcock Dr,53706-1201
+80,Agricultural Engineering Building,None,None,None,460 Henry Mall,53706-1533
+81,Bakke Recreation & Wellbeing Center,None,None,None,1976 Observatory Dr,53706-0000
+82,Genetics-Biotechnology Center Building,None,None,None,425 Henry Mall,53706-1580
+84,"Biochemistry Building, DeLuca, Hector F",None,None,None,420 Henry Mall,53706-1569
+85,"Nicholas Hall, Nancy",None,None,None,1300 Linden Dr,53706-1524
+88,Union South,None,None,None,1308 W Dayton St,53715-1149
+90,Stock Pavilion,None,None,None,1675 Linden Dr,53706-1536
+92,Dairy Cattle Center,None,None,None,1815 Linden Dr,53706-1110
+93,Veterinary Medicine South,None,None,None,2015 Linden Dr,53706-1100
+94,"Biomedical Sciences Laboratories, Hanson, Robert P",None,None,None,1656 Linden Dr,53706-1520
+95,Horse Barn,None,None,None,520 Elm Dr,53706-1138
+96,Dairy Forage Research Center-US,None,None,None,1925 Linden Dr,53706-1108
+99,Agricultural Engineering Laboratory,None,None,None,540 Elm Dr,53706-1138
+101,US Dairy Forage Research Ctr-P D S,None,None,None,S8822 Sunset Dr,53578-0000
+102,Henry Mall 445,None,None,None,445 Henry Mall,53706-1577
+103,Linden Dr 1910,None,None,None,1910 Linden Dr,53706-1109
+104,Parking Ramp 36-Observatory Dr,None,None,None,1645 Observatory Dr,53705-1205
+105,Dairy Barn,None,None,None,1915 Linden Dr,53706-1108
+106,Babcock Hall,None,None,None,1605 Linden Dr,53706-1519
+107,Griffith State Nursery-Forest Disease Lab,None,None,None,437 Griffith Ave,54494-7859
+108,Herrick Dr 505,None,None,None,505 Herrick Dr,53706-1001
+109,Herrick Dr 509,None,None,None,509 Herrick Dr,53706-1001
+110,Poultry Research Laboratory,None,None,None,1925 Observatory Dr,53706-1122
+111,Herrick Dr 502,None,None,None,502 Herrick Dr,53706-1000
+112,Lift Station-Marsh,None,None,None,2275 University Bay Dr,53705-0000
+113,University Ave 1800,None,None,None,1800 University Ave,53726-4090
+114,Russell Laboratories,None,None,None,1630 Linden Dr,53706-1520
+115,Livestock Laboratory,None,None,None,1810 Linden Dr,53706-1111
+116,"Schuman Shelter, Carl",None,None,None,2025 Willow Dr,53706-0000
+118,Animal Science Building,None,None,None,1675 Observatory Dr,53706-1205
+120,West Campus Cogeneration Facility,None,None,None,515 Walnut St,53726-2334
+121,Cereal Crops Research Unit,None,None,None,502 Walnut St,53726-2335
+122,Greenhouse-Walnut St,None,None,None,525 Walnut St,53706-2334
+123,Meat Science and Muscle Biology Lab,None,None,None,1805 Linden Dr,53706-1110
+124,Mills St N 30,None,None,None,30 N Mills St,53715-1211
+125,Physical Plant-Grounds Storage,None,None,None,515 Herrick Dr,53706-1001
+126,Veterinary Diagnostic Lab-WI,None,None,None,445 Easterday Ln,53706-1253
+127,Herrick Dr 550 - Incinerator,None,None,None,550 Herrick Dr,53706-1000
+128,Linden Dr 2115,None,None,None,2115 Linden Dr,53706-1101
+129,University Ave 1610,None,None,None,1610 University Ave,53726-4086
+130,Picnic Point-Grounds,None,None,None,2000 University Bay Dr,53706-0000
+131,Arboretum-Root Cellar,None,None,None,2858 Longenecker Dr,53713-3761
+132,Arboretum-Shelter House,None,None,None,2802 Longenecker Dr,53713-3761
+133,Arboretum-Nursery Pump House,None,None,None,2869 Longenecker Dr,53713-3761
+134,Arboretum-Shop and Garage,None,None,None,2860 Longenecker Dr,53713-3761
+135,Lift Station-Arboretum,None,None,None,2862 Longenecker Dr,53713-3761
+136,Humphrey Hall,None,None,None,640 Babcock Dr,53706-1210
+137,Jorns Hall,None,None,None,650 Babcock Dr,53706-1291
+139,Fluno Center for Executive Education,None,None,None,601 University Ave,53715-1035
+140,Grainger Hall,None,None,None,975 University Ave,53706-1324
+141,Centennial Research Facility,None,None,None,510 Walnut St,53726-2335
+142,Parking Ramp 20-University Ave,None,None,None,1390 University Ave,53706-1510
+143,US Forage Resh Ctr-Conc Bunker Silos (6),None,None,None,S8822 Sunset Dr,53578-0000
+147,US Forage Resh Ctr-Agron Storage,None,None,None,S8822 Sunset Dr,53578-0000
+149,Meat Science & Animal Biologics Discovery,None,None,None,1933 Observatory Dr,53706-0000
+152,Parking Ramp 46-Lake & Johnson,None,None,None,301 N Lake St,53706-0000
+153,Teacher Education,None,None,None,225 N Mills St,53706-1707
+154,Educational Sciences,None,None,None,1025 W Johnson St,53706-1706
+155,Computer Sciences,None,None,None,1210 W Dayton St,53706-1613
+156,Atmospheric Oceanic & Space Sciences Bldg,None,None,None,1225 W Dayton St,53706-1612
+158,"Rust, Henry & Schreiner, David Hall",None,None,None,115 N Orchard St,53715-1150
+159,ARS Lancaster-Quonset Machine Shed,None,None,None,9129 University Farm Rd,53813-0000
+161,US Forage Resh Ctr Shop-Equipment Bldg,None,None,None,S8822 Sunset Dr,53578-0000
+162,ARS Lancaster-Dwelling#1,None,None,None,7523 University Farm Rd,53813-0000
+163,ARS Lancaster-Barn#2,None,None,None,9129 University Farm Rd,53813-0000
+165,ARS Lancaster-Garage and Storage,None,None,None,9129 University Farm Rd,53813-0000
+166,ARS Lancaster-Frame Machine Shed,None,None,None,9129 University Farm Rd,53813-0000
+167,ARS Lancaster-Hay Storage#2,None,None,None,9129 University Farm Rd,53813-0000
+168,ARS Lancaster-Animal Shelter,None,None,None,9129 University Farm Rd,53813-0000
+169,ARS Lancaster-Equipment Storage,None,None,None,7396 State Hwy 35 & 81,53813-0000
+170,Band Storage Building,None,None,None,710 Walnut St,53726-0000
+171,Goodman Softball Complex,None,None,None,2415 University Bay Dr,53706-0000
+172,Porter Boathouse,None,None,None,680 Babcock Dr,53706-1210
+173,McClimon Track Ticket Booth,None,None,None,702 Walnut St,53726-0000
+174,Goodman Softball-Storage Building 3,None,None,None,2405 University Bay Dr,53705-0000
+175,Goodman Softball Main Building,None,None,None,2415 University Bay Dr,53706-0000
+176,Goodman Softball-Ticket Booth,None,None,None,2435 University Bay Dr,53706-0000
+177,ARS Lancaster-Grounds,None,None,None,7396 State Hwy 35 & 81,53813-0000
+178,ARS Lancaster-Machine Shed,None,None,None,7396 State Hwy 35 & 81,53813-0000
+180,ARS Lancaster-Chem Mgmt Facility,None,None,None,7396 State Hwy 35 & 81,53813-0000
+181,ARS Lancaster-Dwelling#2,None,None,None,7406 State Hwy 35 & 81,53813-0000
+182,ARS Lancaster-Three Stall Garage,None,None,None,7396 State Hwy 35 & 81,53813-0000
+183,ARS Lancaster-Hay Storage#1,None,None,None,7396 State Hwy 35 & 81,53813-0000
+184,ARS Lancaster-Dairy Barn,None,None,None,7396 State Hwy 35 & 81,53813-0000
+185,ARS Lancaster-Shop and Dryer,None,None,None,7396 State Hwy 35 & 81,53813-0000
+186,ARS Lancaster-Farm Center,None,None,None,7396 State Hwy 35 & 81,53813-0000
+187,Allen Garden-Gazebo,None,None,None,620 Babcock Dr,53706-1210
+188,Allen Garden-Pavilion,None,None,None,620 Babcock Dr,53706-1210
+189,Allen Garden-Service Building,None,None,None,620 Babcock Dr,53706-1210
+190,Allen Garden-Pergola,None,None,None,620 Babcock Dr,53706-1210
+191,Allen Garden-Bridge,None,None,None,620 Babcock Dr,53706-1210
+192,Allen Garden-Rock Garden Pools and Pump,None,None,None,620 Babcock Dr,53706-1210
+193,Allen Garden-Water Garden and Fountain,None,None,None,620 Babcock Dr,53706-1210
+194,Allen Garden-Bronze Bird Sculpture,None,None,None,620 Babcock Dr,53706-1210
+195,Allen Garden-Victorian Wrought Iron Fence,None,None,None,620 Babcock Dr,53706-1210
+204,"Biochemical Sciences, DeLuca, Hector F",None,None,None,440 Henry Mall,53706-1535
+205,"Biochemistry Laboratories, DeLuca, Hector F",None,None,None,433 Babcock Dr,53706-1544
+206,"Smith Greenhouse, D C",None,None,None,465 Babcock Dr,53706-1536
+211,Morgridge Institute for Research,None,None,None,330 N Orchard St,53715-1119
+212,Wisconsin Institute for Discovery,None,None,None,333 N Randall Ave,53715-1003
+213,Orchard St N 309,None,None,None,309 N Orchard St,53715-1120
+215,Morgridge Hall,None,None,None,1205 University Ave,53706-1530
+220,Art Lofts,None,None,None,111 N Frances St,53703-2636
+222,Herrick Dr 525 - Electrical Storage,None,None,None,525 Herrick Dr,53706-1001
+223,Physical Plant-Grounds Storage 2,None,None,None,520 Herrick Dr,53706-1000
+224,Camp Randall Memorial Park,None,None,None,198 N Randall Ave,53715-1341
+225,"Kohl Center, The",None,None,None,601 W Dayton St,53715-1206
+226,Nicholas-Johnson Pavilion and Plaza,None,None,None,601 W Dayton St,53715-1206
+227,LaBahn Arena,None,None,None,105 East Campus Mall,53715-1210
+238,ARS Arling-Ent&Plnt P-Storage#4,None,None,None,N1245 Hwy 51,53911-9721
+239,ARS Arling-Ent&Plnt P-Storage#2,None,None,None,N1245 Hwy 51,53911-9721
+240,ARS Arling-Ent&Plnt P-Storage#3,None,None,None,N1245 Hwy 51,53911-9721
+245,Upham Woods-Central Lodge,None,None,None,N194 Cty Rd N,53965-9124
+249,Linden Dr 1932,None,None,None,1932 Linden Dr,53706-0000
+270,Band Practice Field,None,None,None,787 Walnut St,53726-0000
+275,ARS Spooner-Grounds,None,None,None,W6646 Hwy 70,54801-7434
+277,ARS Spooner-Chem Mgmt Facility,None,None,None,W6646 Hwy 70,54801-7434
+278,ARS Spooner-Auditorium,None,None,None,W6646 Hwy 70,54801-7434
+279,ARS Spooner-Pole Hay Shed,None,None,None,W6646 Hwy 70,54801-7434
+280,ARS Spooner-Machine Shed,None,None,None,W6646 Hwy 70,54801-7434
+281,ARS Spooner-Potato Cellar,None,None,None,W6646 Hwy 70,54801-7434
+282,ARS Spooner-Garage,None,None,None,W6646 Hwy 70,54801-7434
+283,ARS Spooner-Grain Bin,None,None,None,W6646 Hwy 70,54801-7434
+284,ARS Spooner-Sheep Barn 50x168,None,None,None,W6646 Hwy 70,54801-7434
+286,ARS Spooner-Ram Barn,None,None,None,W6646 Hwy 70,54801-7434
+288,ARS Spooner-Farm House,None,None,None,N5264 Orchard Ln,54801-7435
+290,ARS Spooner-Grain Bins,None,None,None,W6646 Hwy 70,54801-7434
+294,ARS Spooner-Seed Storage,None,None,None,W6646 Hwy 70,54801-7434
+295,ARS Spooner-Greenhouse Plastic,None,None,None,W6646 Hwy 70,54801-7434
+296,ARS Spooner-Silo,None,None,None,W6646 Hwy 70,54801-7434
+297,ARS Spooner-Pump House and Farm Shop,None,None,None,W6646 Hwy 70,54801-7434
+299,ARS Spooner-Shop and Steel Storage,None,None,None,W6646 Hwy 70,54801-7434
+306,ARS Hancock-Equipment Shop,None,None,None,N3909 Cty Rd V,54943-7547
+310,ARS Marshfield-S-Grounds,None,None,None,2611 Yellowstone Dr,54449-8401
+314,ARS Marshfield-S-Dwelling,None,None,None,2603 Yellowstone Dr,54449-8401
+315,ARS Marshfield-S-Oil and Grease Shed,None,None,None,2611 Yellowstone Dr,54449-8401
+316,ARS Marshfield-S-Garage,None,None,None,2611 Yellowstone Dr,54449-8401
+317,ARS Marshfield-S-Steel Shed and Shop,None,None,None,2611 Yellowstone Dr,54449-8401
+318,ARS Marshfield-S-Granary Dryer,None,None,None,2611 Yellowstone Dr,54449-8401
+321,ARS Marshfield-S-Chem Mgmt Facility,None,None,None,2611 Yellowstone Dr,54449-8401
+325,ARS Marshfield-S-Machine Shed,None,None,None,2611 Yellowstone Dr,54449-8401
+332,ARS Peninsular-Grounds,None,None,None,4312 Hwy 42,54235-9620
+333,ARS Peninsular-Soil Storage Building,None,None,None,4312 Hwy 42,54235-9620
+334,ARS Peninsular-Machine Shed#1,None,None,None,4312 Hwy 42,54235-9620
+335,ARS Peninsular-Pole Barn,None,None,None,4312 Hwy 42,54235-9620
+336,ARS Marshfield-S-Office & Soil Lab,None,None,None,2611 Yellowstone Dr,54449-8401
+340,ARS Peninsular-Screenhouse#6,None,None,None,4312 Hwy 42,54235-9620
+341,ARS Peninsular-Screenhouse#3,None,None,None,4312 Hwy 42,54235-9620
+342,ARS Hancock-Equipment Storage,None,None,None,N3909 Cty Rd V,54943-7547
+343,ARS Peninsular-Garage,None,None,None,4312 Hwy 42,54235-9620
+344,ARS Hancock-Greenhouse Plastic,None,None,None,N3909 Cty Rd V,54943-7547
+345,ARS Hancock-Dormitory,None,None,None,N3871 Cty Hwy V,54943-7547
+346,ARS Hancock-Office and Laboratory,None,None,None,N3909 Cty Rd V,54943-7547
+348,ARS Hancock-Potato Grading and Storage,None,None,None,N3909 Cty Rd V,54943-7547
+350,ARS Hancock-Grounds,None,None,None,N3909 Cty Rd V,54943-7547
+352,ARS Hancock-Woodworking Shop & Dryer,None,None,None,N3909 Cty Rd V,54943-7547
+353,ARS Hancock-Field Office,None,None,None,N3909 Cty Rd V,54943-7547
+355,ARS Hancock-Vegetable Grading & Storage,None,None,None,N3909 Cty Rd V,54943-7547
+359,"ARS Hancock-Fertilizer, Chemical, Equip Stg",None,None,None,N3909 Cty Rd V,54943-7547
+360,Lelah Starks-Potato Storage,None,None,None,7749 Hwy K,54501-9140
+361,ARS Rhine-Stella-Plastic Greenhouse#2,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+362,ARS Rhine-Stella-Greenhouse#1,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+363,ARS Hancock-Chemical Management Facility,None,None,None,N3909 Cty Rd V,54943-7547
+364,ARS Rhine-Stella-Grounds,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+365,ARS Peninsular-Plastic Greenhouse,None,None,None,4312 Hwy 42,54235-9620
+366,ARS Peninsular-Sprayer Shed,None,None,None,4312 Hwy 42,54235-9620
+367,ARS Peninsular-Garden Tool Shed,None,None,None,4312 Hwy 42,54235-9620
+368,ARS Peninsular-Potato Storage and Workroom,None,None,None,4312 Hwy 42,54235-9620
+369,ARS Peninsular-Greenhouse,None,None,None,4312 Hwy 42,54235-9620
+371,ARS Peninsular-Apple Storage,None,None,None,4312 Hwy 42,54235-9620
+372,ARS Peninsular-Head and Greenhouse,None,None,None,4312 Hwy 42,54235-9620
+373,ARS Peninsular-Apple Grading and Storage,None,None,None,4312 Hwy 42,54235-9620
+374,ARS Peninsular-Machine Shed#2,None,None,None,4312 Hwy 42,54235-9620
+375,ARS Peninsular-Chem Mgmt Facility,None,None,None,4312 Hwy 42,54235-9620
+376,ARS Peninsular-House,None,None,None,4310 Hwy 42,54235-0000
+377,ARS Rhine-Stella-Plastic Greenhouse#3,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+378,ARS Peninsular-Office and Laboratory,None,None,None,4312 Hwy 42,54235-9620
+379,ARS Peninsular-Pump and Well House,None,None,None,4312 Hwy 42,54235-9620
+380,ARS Peninsular-Wood Storage Building,None,None,None,4312 Hwy 42,54235-9620
+381,ARS Peninsular-Screenhouse#1,None,None,None,4312 Hwy 42,54235-9620
+382,ARS Peninsular-Screenhouse#7,None,None,None,4312 Hwy 42,54235-9620
+383,ARS Peninsular-Screenhouse#8,None,None,None,4312 Hwy 42,54235-9620
+384,ARS Peninsular-Screenhouse#9,None,None,None,4312 Hwy 42,54235-9620
+387,ARS Rhine-Stella-Machine Shed/Shop,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+388,ARS Rhine-Stella-Plastic Greenhouse#7,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+389,ARS Rhine-Stella-Dormitory & Office,None,None,None,4161 Camp Bryn Afon Rd,54501-9562
+390,ARS Rhine-Stella-Plastic Greenhouse#4,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+391,ARS Rhine-Stella-Plastic Greenhouse#5,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+392,ARS Rhine-Stella-Plastic Greenhouse#6,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+393,ARS Rhine-Stella-Trailer,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+394,ARS Rhine-Stella-Headquarters Bldg,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+395,ARS Rhine-Stella-Garage,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+396,Finnerud Forest Garage,None,None,None,Agawak Rd,54548-0000
+397,Finnerud Forest,None,None,None,Agawak Rd,54548-0000
+398,ARS Rhine-Stella-Boiler House,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+399,ARS Rhine-Stella-Potato Storage Bldg,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+400,Education Building,None,None,None,1000 Bascom Mall,53706-1326
+401,Integrative Biology Research Building,None,None,None,1117 W Johnson St,53706-1705
+402,"Noland Hall, Lowell E",None,None,None,250 N Mills St,53706-1708
+403,Water Science and Engineering Laboratory,None,None,None,660 N Park St,53706-1413
+404,"Wendt Commons, Kurt F",None,None,None,215 N Randall Ave,53706-1605
+405,Radio Hall,None,None,None,975 Observatory Dr,53706-1321
+407,Mechanical Engineering Building,None,None,None,1513 University Ave,53706-1539
+408,Engineering Hall,None,None,None,1415 Engineering Dr,53706-1607
+409,Lelah Starks-Zeloski Screenhouse,None,None,None,7749 Hwy K,54501-9140
+410,Lelah Starks-House,None,None,None,7749 Hwy K,54501-9140
+411,Lelah Starks-Screenhouse#2,None,None,None,7749 Hwy K,54501-9140
+412,Lelah Starks-Screenhouse#3,None,None,None,7749 Hwy K,54501-9140
+413,Lelah Starks-Grounds,None,None,None,7749 Hwy K,54501-9140
+414,Lelah Starks-Screenhouse#4,None,None,None,7749 Hwy K,54501-9140
+415,Lelah Starks-Potato Sorting,None,None,None,7749 Hwy K,54501-9140
+418,Lelah Starks-Machine Shop,None,None,None,7749 Hwy K,54501-9140
+419,ARS Madison-Mandt-Machine Storage#2,None,None,None,8501 Mineral Point Rd,53593-8691
+420,ARS Madison-West-Grounds,None,None,None,8502 Mineral Point Rd,53593-9689
+421,ARS Madison-West-Machine Shop/Storage,None,None,None,8460 Mineral Point Rd,53593-8696
+422,ARS Madison-West-Hay Storage (inactive),None,None,None,8502 Mineral Point Rd,53593-9689
+423,ARS Madison-West-Agron/Eng/Gen Bldg,None,None,None,8456 Mineral Point Rd,53593-3808
+424,ARS Madison-West-Chemical Mgmt Facility,None,None,None,8468 Mineral Point Rd,53593-3808
+425,ARS Madison-West-Gas Tanks,None,None,None,8464 Mineral Point Rd,53593-3808
+426,ARS Madison-West-Headquarters Building,None,None,None,8502 Mineral Point Rd,53593-9689
+427,ARS Madison-West-Garden Office,None,None,None,8502 Mineral Point Rd,53593-9689
+428,ARS Madison-West Hay Storage,None,None,None,8502 Mineral Point Rd,53593-9689
+430,Law Building,None,None,None,975 Bascom Mall,53706-1399
+431,Upham Woods-System Control,None,None,None,N194 Cty Rd N,53965-9124
+432,Upham Woods-Residence Duplex,None,None,None,N194 Cty Rd N,53965-9124
+433,Upham Woods-Bath House,None,None,None,N194 Cty Rd N,53965-9124
+434,Upham Woods-Ihlenfeldt Cabin,None,None,None,N194 Cty Rd N,53965-9124
+435,Eagle Heights Community Gardens,None,None,None,2452 Lake Mendota Dr,53705-1507
+436,Upham Woods-Shop and Storage,None,None,None,N194 Cty Rd N,53965-9124
+437,Upper Dells Education & Research Center,None,None,None,N194 Cty Rd N,53965-9124
+438,Upham Woods-Dormitory,None,None,None,N194 Cty Rd N,53965-9124
+439,Upham Woods-Peters Nature Center,None,None,None,N194 Cty Rd N,53965-9124
+440,Upham Woods-Grounds,None,None,None,N194 Cty Rd N,53965-9124
+441,Upham Woods-Craig Cabin,None,None,None,N194 Cty Rd N,53965-9124
+442,Upham Woods-Varney Craft Center,None,None,None,N194 Cty Rd N,53965-9124
+443,Upham Woods-Bewick Cabin,None,None,None,N194 Cty Rd N,53965-9124
+444,Upham Woods-Dr. Bible Cabin,None,None,None,N194 Cty Rd N,53965-9124
+445,Upham Woods-Ranger Mac Cabin,None,None,None,N194 Cty Rd N,53965-9124
+448,Upham Woods-Varney Cabin,None,None,None,N194 Cty Rd N,53965-9124
+449,Nutritional Sciences,None,None,None,1415 Linden Dr,53706-1510
+450,Medical Sciences Center,None,None,None,1300 University Ave,53706-1532
+452,Bradley Memorial Building,None,None,None,1225 Linden Dr,53706-1528
+453,School of Social Work Building,None,None,None,1350 University Ave,53706-1510
+455,"Middleton Building, William S",None,None,None,1305 Linden Dr,53706-1523
+456,UW Psychiatric Institute and Clinics,None,None,None,6001 Research Park Blvd,53719-1176
+458,Goodman Softball-Storage Building 1,None,None,None,1030 Highland Ave,53706-0000
+459,Waisman Center,None,None,None,1500 Highland Ave,53705-2274
+460,Kellner Hall,None,None,None,1440 Monroe St,53711-2051
+464,"Taylor Hall, Henry",None,None,None,427 Lorch St,53706-1513
+465,Linden Dr 2105,None,None,None,2105 Linden Dr,53706-1101
+467,East Campus Mall 333,None,None,None,333 East Campus Mall,53715-1365
+468,McArdle Building,None,None,None,447 Lorch St,53706-1526
+469,"Humanities Building, Mosse, George L",None,None,None,455 N Park St,53706-1405
+470,"Psychology Building, W J Brogden",None,None,None,1202 W Johnson St,53706-1611
+473,Civil War Historical Marker,None,None,None,Camp Randall Memorial Park,53715-0000
+475,Lifesaving Station,None,None,None,144 E Gilman St,53703-1407
+476,"Stovall Building, William D-Hygiene Lab",None,None,None,465 Henry Mall,53706-1501
+479,Enzyme Institute,None,None,None,1710 University Ave,53726-4087
+481,Engineering Centers Building,None,None,None,1550 Engineering Dr,53706-4087
+482,Van Hise Hall,None,None,None,1220 Linden Dr,53706-1525
+483,"Hasler Laboratory of Limnology, Arthur D",None,None,None,680 N Park St,53706-1413
+485,Music Hall,None,None,None,925 Bascom Mall,53706-1317
+486,Engineering Dr 1410 (inactive),None,None,None,1410 Engineering Dr,53706-1608
+487,Carillon Tower,None,None,None,1160 Observatory Dr,53706-1320
+489,Below Alumni Center,None,None,None,650 N Lake St,53706-1410
+491,Lakeshore Nature Preserve-Garage,None,None,None,1970 University Bay Dr,53706-0000
+492,Lakeshore Nature Preserve Frautschi Center,None,None,None,1972 University Bay Dr,53706-0000
+493,University Ave 1848,None,None,None,1848 University Ave,53726-4090
+495,Picnic Point-Toilets (2),None,None,None,2000 University Bay Dr,53706-0000
+496,Parking Garage 93-Foundation,None,None,None,1850 University Ave,53704-4090
+497,Pine Bluff-Storage Building,None,None,None,4065 Observatory Rd,53528-8815
+498,Inventory Report-Equip Outside Bldgs,None,None,None,For Business Services Purposes,00000-0000
+499,Lakeshore Nature Preserve,None,None,None,For Business Services Purposes,00000-0000
+500,Extension Building,None,None,None,432 N Lake St,53706-1415
+502,Lowell Center,None,None,None,610 Langdon St,53703-1104
+503,Electrical Substation-Walnut 3,None,None,None,503 Walnut St,53726-2334
+504,Charter St N 45,None,None,None,45 N Charter St,53715-1238
+506,"Bradley Residence Hall, Harold C",None,None,None,650 Elm Dr,53706-1127
+507,"Phillips Residence Hall, Vel",None,None,None,1950 Willow Dr,53706-1132
+508,"Goodnight Hall, Scott H",None,None,None,1975 Willow Dr,53706-1103
+510,"Observatory, Washburn",None,None,None,1401 Observatory Dr,53706-1209
+511,Pine Bluff-Steel Aux Observatory 2,None,None,None,4065 Observatory Rd,53528-8815
+512,Observatory Hill Office Building,None,None,None,1225 Observatory Dr,53706-1211
+513,Electrical Substation-Walnut 2,None,None,None,503 Walnut St,53726-2334
+514,Pine Bluff-Spectroscopic Instrument Lab,None,None,None,4065 Observatory Rd,53528-8815
+516,Pine Bluff-Grounds,None,None,None,4065 Observatory Rd,53528-8815
+517,Pine Bluff-Observatory,None,None,None,4065 Observatory Rd,53528-8815
+518,Pine Bluff-Aux Observatory,None,None,None,4065 Observatory Rd,53528-8815
+519,Pine Bluff-Garage,None,None,None,4065 Observatory Rd,53528-8815
+520,Materials Science and Engineering Bldg,None,None,None,1509 University Ave,53706-1538
+521,"Weeks Hall for Geological Sci, Lewis G",None,None,None,1215 W Dayton St,53706-1600
+523,Pine Bluff-Steel Aux Observatory 1,None,None,None,4065 Observatory Rd,53528-8815
+524,Chazen Building,None,None,None,750 University Ave,53706-1411
+525,Electrical Substation-West 1,None,None,None,1810 Linden Dr,53706-1111
+526,"Primate Center, Wisconsin",None,None,None,1223 Capitol Ct,53715-1261
+527,Harlow Center,None,None,None,22 N Charter St,53715-1239
+528,Heating Stations-Fuel Oil and Coal,None,None,None,For Business Services Purposes,00000-0000
+529,Heating and Cooling Plant-Charter St,None,None,None,117 N Charter St,53715-1142
+531,Electrical Substation-East Campus 1,None,None,None,108 East Campus Mall,53715-0000
+532,Physical Plant-Grounds Storage 3,None,None,None,506 Herrick Dr,53706-1000
+535,University Bay Dr 901-Garage,None,None,None,901 University Bay Dr,53705-2269
+536,Parking Ramp 17-Engineering Dr,None,None,None,1525 Engineering Dr,53706-1603
+538,Fire Protection Material All Bldgs,None,None,None,For Business Services Purposes,00000-0000
+539,Fire Protection Underground,None,None,None,For Business Services Purposes,00000-0000
+540,Tunnels and Conduits-All Campus,None,None,None,For Business Services Purposes,00000-0000
+541,Electrical Dist System-All Campus,None,None,None,For Business Services Purposes,00000-0000
+542,Madison Campus-Roads and Grounds,None,None,None,For Business Services Purposes,00000-0000
+543,Water and Sewer Distribution System,None,None,None,For Business Services Purposes,00000-0000
+544,"Elvehjem Building, Conrad A",None,None,None,800 University Ave,53706-1414
+545,Vilas Communication Hall,None,None,None,821 University Ave,53706-1412
+546,Electrical Substation-Radio Hall,None,None,None,977 Observatory Dr,53706-0000
+547,University Bay Dr 901,None,None,None,901 University Bay Dr,53705-2269
+549,Environment Health and Safety Building,None,None,None,30 East Campus Mall,53715-1227
+550,Police and Security Facility,None,None,None,1429 Monroe St,53711-2018
+551,Electrical Substation-Microbial,None,None,None,1530 Linden Dr,53706-0000
+553,Electrical Substation-Charter St-5kv,None,None,None,115 N Charter St,53715-1142
+555,Cole Residence Hall,None,None,None,625 Elm Dr,53706-1126
+556,Sullivan Residence Hall,None,None,None,635 Elm Dr,53706-1188
+557,Chadbourne Residence Hall,None,None,None,420 N Park St,53706-1406
+558,Slichter Residence Hall,None,None,None,625 Babcock Dr,53706-1204
+559,"Waters Residence Hall, Elizabeth",None,None,None,1200 Observatory Dr,53706-1212
+560,Barnard Residence Hall,None,None,None,970 University Ave,53706-1300
+561,Electrical Substation-Charter St-15kv,None,None,None,113 N Charter St,53715-1142
+562,Central Kitchen-Chadbourne and Barnard,None,None,None,970 University Ave,53706-1300
+565,Carson Gulley Center,None,None,None,1515 Tripp Cir,53706-1200
+566,Residence Halls Garage,None,None,None,1525 Tripp Cir,53706-1200
+567,Dejope Residence Hall,None,None,None,640 Elm Dr,53706-1134
+568,Turner House,None,None,None,1620 Kronshage Dr,53706-1203
+569,Gilman House,None,None,None,1610 Kronshage Dr,53706-1203
+570,Mack House,None,None,None,1630 Kronshage Dr,53706-1203
+571,Chamberlin House,None,None,None,665 Elm Dr,53706-1137
+572,Jones House,None,None,None,655 Elm Dr,53706-1136
+573,Swenson House,None,None,None,645 Elm Dr,53706-1135
+575,Merit Residence Hall,None,None,None,919 W Dayton St,53715-1126
+576,"Leopold Residence Hall, Aldo",None,None,None,1635 Kronshage Dr,53706-1203
+577,"Bayliss Co-Op, Zoe (Inactive)",None,None,None,915 W Johnson St,53715-1023
+578,"Davis Residence Hall, Susan B (Inactive)",None,None,None,917 W Johnson St,53715-1023
+579,Raywood Rd 6911,None,None,None,6911 Raywood Rd,53713-1545
+580,Harvey Street-Grounds,None,None,None,2924 Harvey St,53705-3567
+581,Harvey Street-Service Building,None,None,None,2900 Harvey St,53705-3504
+583,Electrical Substation-Charter & Dayton,None,None,None,203 N Charter St,53715-1144
+584,Athletic Operations Building,None,None,None,25 N Breese Ter,53711-2019
+585,Hamel Music Center,None,None,None,740 University Ave,53706-1411
+587,Brittingham Estate-House,None,None,None,6021 S Highlands Ave,53705-1110
+588,Brittingham Estate-Carriage House,None,None,None,6021 S Highlands Ave,53705-1110
+590,Brittingham Estate-Tool House,None,None,None,6021 S Highlands Ave,53705-1110
+591,Brittingham Estate-Squash House,None,None,None,6021 S Highlands Ave,53705-1110
+592,Brittingham Estate-Grounds,None,None,None,6021 S Highlands Ave,53705-1110
+593,Harvey Street Apts-Building 1,None,None,None,2900 Harvey St,53705-3504
+594,Harvey Street Apts-Building 3,None,None,None,2900 Harvey St,53705-3504
+595,Harvey Street Apts-Building 2,None,None,None,2900 Harvey St,53705-3504
+596,Harvey Street Apts-Building 4,None,None,None,2900 Harvey St,53705-3504
+597,Harvey Street Apts-Building 5,None,None,None,2900 Harvey St,53705-3504
+598,Harvey Street Apts-Building 6,None,None,None,2900 Harvey St,53705-3504
+599,Harvey Street Apts-Building 7,None,None,None,2900 Harvey St,53705-3504
+600,Abraham's Woods,None,None,None,Oliver Rd,53502-0000
+601,Arboretum-Greenhouse,None,None,None,2867 Longenecker Dr,53713-3761
+602,Arboretum-Grounds,None,None,None,2867 Longenecker Dr,53713-3761
+603,Arboretum-Laboratory,None,None,None,2867 Longenecker Dr,53713-3761
+604,Arboretum-McKay Center,None,None,None,2880 Longenecker Dr,53713-3761
+605,Arboretum-Machine Shed,None,None,None,2856 Longenecker Dr,53713-3761
+606,Arboretum-Comfort Station,None,None,None,2866 Longenecker Dr,53713-3761
+607,Arboretum-Security Residence,None,None,None,2870 Longenecker Dr,53713-3761
+608,Lake Wingra-Storage Shed,None,None,None,905 Knickerbocker St,53711-0000
+609,Abraham's Woods Shelter,None,None,None,Oliver Rd,53502-0000
+610,Arboretum-Maintenance,None,None,None,2851 Longenecker Dr,53713-3761
+612,Arboretum-Seed Storage,None,None,None,2852 Longenecker Dr,53713-3761
+613,Arboretum-Teaching Barracks,None,None,None,2855 Longenecker Dr,53713-3761
+614,Arboretum-Woods,None,None,None,2701 Arbor Dr,53711-0000
+617,Bolz Prairie,None,None,None,Meffert Rd,53597-0000
+618,Hub City Bog,None,None,None,Soules Creek Dr,00000-0000
+619,Oliver Prairie,None,None,None,Oliver Rd,53502-0000
+620,Faville Prairie Preserve,None,None,None,Prairie Ln,53594-0000
+621,Lodde's Mill Bluff,None,None,None,Baum Rd,53583-0000
+622,McKenna Pond,None,None,None,Cleveland Rd,53528-0000
+623,Pasque Flower Hill,None,None,None,Raymond Rd,53711-0000
+624,ARS Madison-Mandt-Grounds,None,None,None,8501 Mineral Point Rd,53593-8691
+626,Observatory Woods,None,None,None,4105 Observatory Rd,53528-8815
+629,East Recreation Fields,None,None,None,1926 Observatory Dr,53706-0000
+631,Effigy: Bird Form,None,None,None,1193 Observatory Dr,53706-0000
+632,Ho-Chunk Nation 12 Clans,None,None,None,1996 Observatory Dr,53706-0000
+633,Divine Nine Plaza,None,None,None,330 East Campus Mall,53715-0000
+634,ARS Madison-Mandt-Storage Building,None,None,None,8501 Mineral Point Rd,53593-8691
+635,Ableman's Gorge,None,None,None,State Rd 136,00000-0000
+636,Bear Creek Cave,None,None,None,County Trunk Hwy G,54922-0000
+637,Bruckert Tract,None,None,None,Orchard Rd,53138-0000
+638,Diedrich Wildlife Area,None,None,None,North Shore Rd,53594-0000
+639,University Bay Recreation Fields,None,None,None,1275 University Bay Dr,53706-0000
+640,Gugel Outlot,None,None,None,5326 Mineral Point Rd,53705-0000
+641,Mineral Point Rd 3817,None,None,None,3817 Mineral Point Rd,53705-5121
+647,WHA AM and FM Antenna-Arboretum,None,None,None,1601 Martin St,53713-1133
+648,WHA AM and FM Tower-Arboretum,None,None,None,1601 Martin St,53713-1133
+649,WHA AM Transmitter Bldg-Arboretum,None,None,None,1601 Martin St,53713-1133
+653,SVM CIF-Barn 4,None,None,None,5707 Mineral Point Rd,53705-4453
+654,SVM CIF-Barn 3,None,None,None,5707 Mineral Point Rd,53705-4453
+655,SVM CIF-Grounds,None,None,None,5707 Mineral Point Rd,53705-4453
+657,SVM CIF-Dairy Barn 2 & Lab,None,None,None,5707 Mineral Point Rd,53705-4453
+666,SVM CIF- Pole Barn 1,None,None,None,5707 Mineral Point Rd,53705-4453
+669,SVM CIF-Milk House,None,None,None,5707 Mineral Point Rd,53705-4453
+670,Library Mall,None,None,None,725 Langdon St,53706-0000
+675,Frautschi Point Lot,None,None,None,2662 Lake Mendota Dr,53705-1507
+676,Willow Creek Woods,None,None,None,2065 Willow Dr,53706-0000
+678,WI Veterinary Diagnostic Lab-Barron,None,None,None,1521 E Guy Ave,54812-1207
+679,Multiple Building Projects,None,None,None,For Business Services Purposes,00000-0000
+680,Muir Woods,None,None,None,1070 Observatory Dr,53706-0000
+681,Goodspeed Family Pier,None,None,None,718 Langdon St,53706-1400
+682,Engineering Mall,None,None,None,Engineering Mall,53706-0000
+683,East Campus Mall,None,None,None,East Campus Mall,53715-0000
+685,Botany Garden,None,None,None,1090 University Ave,53706-0000
+686,Henry Mall,None,None,None,Henry Mall,53706-0000
+687,Alumni Park,None,None,None,724 Langdon St,53706-1400
+689,West Recreation Fields,None,None,None,2100 Observatory Dr,53726-0000
+690,University Ridge-Greens,None,None,None,9002 McKee Rd,53593-9564
+691,University Ridge-Grounds,None,None,None,9002 McKee Rd,53593-9564
+692,University Ridge-Club House,None,None,None,9002 McKee Rd,53593-9564
+693,University Ridge-Maintenance Bldg,None,None,None,9060 McKee Rd,53593-9564
+694,University Ridge-Storage Building,None,None,None,9040 McKee Rd,53593-9564
+695,University Ridge-Pump Station,None,None,None,9020 McKee Rd,53593-9564
+696,O J Noer Turfgrass & Education Facility,None,None,None,2502 S Pleasant View Rd,53593-8784
+697,O J Noer Turfgrass-Grounds,None,None,None,2502 S Pleasant View Rd,53593-8784
+698,University Ridge-All Season Golf,None,None,None,9010 McKee Rd,53593-9564
+699,Thousand Oaks Trail 1061,None,None,None,1061 Thousand Oaks Trl,53593-9198
+701,ARS Kemp-Nat Res St-Grounds,None,None,None,9161 Kemp Rd,54568-9643
+702,ARS Kemp-Nat Res St-Lodge,None,None,None,9161 Kemp Rd,54568-9643
+703,ARS Kemp-Nat Res St-Kitchen and Dining,None,None,None,9161 Kemp Rd,54568-9643
+704,ARS Kemp-Nat Res St-Woodshed,None,None,None,9161 Kemp Rd,54568-9643
+705,ARS Kemp-Nat Res St-Boathouse,None,None,None,9161 Kemp Rd,54568-9643
+706,ARS Kemp-Nat Res St-Covered Boatslip,None,None,None,9161 Kemp Rd,54568-9643
+707,ARS Kemp-Nat Res St-Smokehouse,None,None,None,9161 Kemp Rd,54568-9643
+708,ARS Kemp-Nat Res St-Lab/Office Building,None,None,None,9161 Kemp Rd,54568-9643
+709,ARS Kemp-Nat Res St-Education Pavilion,None,None,None,9161 Kemp Rd,54568-9643
+711,ARS Kemp-Nat Res St-Cabin,None,None,None,9161 Kemp Rd,54568-9643
+712,ARS Kemp-Nat Res St-Connor Forestry Ctr,None,None,None,9173 Kemp Rd,54568-9643
+715,ARS Kemp-Nat Res St-Superintendent House,None,None,None,9161 Kemp Rd,54568-9643
+716,ARS Kemp-Nat Res St-Barn,None,None,None,9161 Kemp Rd,54568-9643
+717,ARS Kemp-Nat Res St-Machine Shed,None,None,None,9161 Kemp Rd,54568-9643
+718,ARS Kemp-Nat Res St-Shop,None,None,None,9161 Kemp Rd,54568-9643
+719,ARS Kemp-Nat Res St-Mead Res Hall,None,None,None,9161 Kemp Rd,54568-9643
+728,ARS Arling-Dairy-Cows-Calf Rearing,None,None,None,W6667 Badger Ln,53911-9730
+729,ARS Arling-Dairy-Cows-Annex,None,None,None,W6667 Badger Ln,53911-9730
+730,ARS Arling-Dairy-Cows-Grain Bins (5),None,None,None,W6667 Badger Ln,53911-9730
+734,Walnut St 501,None,None,None,501 Walnut St,53726-2334
+735,Raymer's Cove Lot,None,None,None,2902 Lake Mendota Dr,53705-1507
+743,University Ave 3500,None,None,None,3500 University Ave,53705-2141
+745,Olin Ave E 122,None,None,None,122 E Olin Ave,53713-1468
+750,Bus Passenger Shelters,None,None,None,For Business Services Purposes,00000-0000
+751,Parking Ramp 75-CSC,None,None,None,610 Highland Ave,53792-0000
+752,Wisconsin Energy Institute,None,None,None,1552 University Ave,53726-4084
+755,UW Hospital Clinic - Research Park,None,None,None,621 Science Dr,53711-1074
+756,University Ave 1922,None,None,None,1922 University Ave,53726-4013
+757,Elm Drive Bicycle Shelter,None,None,None,651 Elm Dr,53706-1136
+762,Engineering Research Building,None,None,None,1500 Engineering Dr,53706-1609
+766,Maquina Sculpture Service Building (Inactive),None,None,None,Engineering Mall,53706-0000
+767,University Ave 2870,None,None,None,2870 University Ave,53705-3611
+768,Phillip A. Levy Engineering Center,None,None,None,1430 Engineering Dr,53706-0000
+769,Warren St 130,None,None,None,130 Warren St,53916-0000
+770,University Ave 2880,None,None,None,2880 University Ave,53705-3644
+771,University Bay Dr 800,None,None,None,800 University Bay Dr,53705-2247
+773,University Ave 3330,None,None,None,3330 University Ave,53705-2167
+774,Inventory Report-Motor Vehicles,None,None,None,For Business Services Purposes,00000-0000
+775,Inventory Report-Livestock,None,None,None,For Business Services Purposes,00000-0000
+778,Brooks St N 207,None,None,None,207 N Brooks St,53715-1116
+779,Soccer Practice Field,None,None,None,1330 Highland Ave,53705-0000
+782,Capitol Ct 1220,None,None,None,1220 Capitol Ct,53715-1237
+786,Kilbourn Ave W 1218-MKE,None,None,None,1218 W Kilbourn Ave,53233-1330
+787,St Lukes Family Prac Residency,None,None,None,2901 W Kinnickinnic River Pkwy,53215-3677
+788,Brooks St N 209,None,None,None,209 N Brooks St,53715-1116
+789,North Athletic Field,None,None,None,1545 Engineering Dr,53706-1603
+793,Veterinary Medicine North,None,None,None,515 Easterday Ln,53706-1100
+796,Whitney Way N 610,None,None,None,610 N Whitney Way,53705-2750
+797,American Parkway 4600,None,None,None,4600 American Pkwy,53704-8333
+799,Observatory Recreation Area,None,None,None,601 Elm Dr,53706-1126
+805,Eagle Heights Woods,None,None,None,3011 Lake Mendota Dr,53705-1507
+806,ARS Marshfield-S-Machine Shop Bldg,None,None,None,2611 Yellowstone Dr,54449-8401
+808,ARS Arling-Poult-House,None,None,None,W7169 Ramsey Rd,53911-9734
+811,ARS Arling-Prairieland,None,None,None,N695 Hopkins Rd,53911-9719
+814,ARS Arling-Swine-Pig and Sow Nursery,None,None,None,W4757 Meek Rd,53911-9719
+819,ARS Arling-Poult-Brooder House '89,None,None,None,W7169 Ramsey Rd,53911-9734
+820,ARS Arling-Poult-Feed Bins (4),None,None,None,W7169 Ramsey Rd,53911-9734
+821,ARS Arling-Poult-Brooder House#1,None,None,None,W7169 Ramsey Rd,53911-9734
+823,ARS Arling-Poult-Test House,None,None,None,W7169 Ramsey Rd,53911-9734
+825,ARS Arling-Sheep-House,None,None,None,W7460 Meek Rd,53911-9735
+826,ARS Arling-Sheep-North Barn,None,None,None,W7460 Meek Rd,53911-9735
+827,ARS Arling-Sheep-Isolation Building,None,None,None,W7460 Meek Rd,53911-9735
+828,ARS Arling-Foundation Seed-Storage,None,None,None,W6618 Hwy K,53911-9720
+831,ARS Arling-Sheep-Hay Storage,None,None,None,W7460 Meek Rd,53911-9735
+832,ARS Arling-Sheep-Feed Bins (7),None,None,None,W4857 Meek Rd,53911-9734
+833,ARS Arling-Sheep-Garage,None,None,None,W7460 Meek Rd,53911-9735
+835,ARS Arling-Bookhout-Service Building,None,None,None,W7114 Ramsey Rd,53911-9734
+836,ARS Arling-Hqtrs-Farm Headquarters,None,None,None,N695 Hopkins Rd,53911-9719
+842,ARS Arling-Bookhout-Solar House,None,None,None,W7140 Ramsey Rd,53911-9734
+843,ARS Arling-Hqtrs-Machine Storage#1,None,None,None,N695 Hopkins Rd,53911-9719
+844,ARS Arling-Bookhout-Pole Barn#1,None,None,None,W7114 Ramsey Rd,53911-9734
+845,ARS Arling-Hqtrs-House#1,None,None,None,N705 Hopkins Rd,53911-9719
+846,ARS Arling-Hqtrs-Warehouse,None,None,None,N695 Hopkins Rd,53911-9719
+848,ARS Arling-BSE-Barn,None,None,None,W6836 Ramsey Rd,53911-9731
+849,ARS Arling-Hqtrs-Hay Storage 2,None,None,None,N695 Hopkins Rd,53911-9719
+852,ARS Arling-BSE-Garage,None,None,None,W6836 Ramsey Rd,53911-9731
+853,ARS Arling-BSE-Shed,None,None,None,W6836 Ramsey Rd,53911-9731
+854,ARS Arling-BSE-Bunker Barn,None,None,None,W6836 Ramsey Rd,53911-9731
+855,ARS Arling-51-House,None,None,None,N639 Hwy 51,53911-8544
+857,ARS Arling-Dairy-Cows-Barn,None,None,None,W6667 Badger Ln,53911-9730
+859,ARS Arling-51-Barn,None,None,None,N705 Hwy 51,53911-0000
+860,ARS Arling-51-Two Stall Garage,None,None,None,N705 Hwy 51,53911-0000
+874,ARS Arling-Soil&Swine-Pole Barn,None,None,None,N636 Cty I,53911-9738
+877,ARS Arling-Hqtrs-Public Events,None,None,None,N695 Hopkins Rd,53911-9719
+878,ARS Arling-Agron-Power House,None,None,None,N695 Hopkins Rd,53911-9719
+880,ARS Arling-Soil&Swine-House,None,None,None,N636 Cty I,53911-9738
+882,ARS Arling-Soil&Swine-Two Stall Garage,None,None,None,N636 Cty I,53911-9738
+883,ARS Arling-Soil&Swine-Research & Teach,None,None,None,N636 Cty I,53911-9738
+884,ARS Arling-Soil&Swine-Storage Shed,None,None,None,N636 Cty I,53911-9738
+885,ARS Arling-Bookhout-Livestock Barn#2,None,None,None,W7114 Ramsey Rd,53911-9734
+886,ARS Arling-Soil&Swine-Grow & Finish Hse,None,None,None,N636 Cty I,53911-9738
+887,ARS Arling-Soil&Swine-Feed Bins (12),None,None,None,N636 Cty I,53911-9738
+888,ARS Arling-Soil&Swine-Service & Dryer,None,None,None,N636 Cty I,53911-9738
+891,ARS Arling-Soil&Swine-Soils Storage,None,None,None,N636 Cty I,53911-9738
+892,ARS Arling-Soil&Swine-Power House,None,None,None,N636 Cty I,53911-9738
+894,ARS Arling-Beef-Phys-Barn 4,None,None,None,W7431 Cty Rd K,53911-0000
+895,ARS Arling-Beef-Phys-Research Barn,None,None,None,W7431 Cty Rd K,53911-0000
+896,ARS Arling-Beef-Phys-Barn 1,None,None,None,W7431 Cty Rd K,53911-0000
+897,ARS Arling-Beef-Phys-Barn 2,None,None,None,W7431 Cty Rd K,53911-0000
+899,ARS Arling-Beef-Phys-Barn 3,None,None,None,W7431 Cty Rd K,53911-0000
+902,ARS Arling-Beef-Phys-Herdsman Residence,None,None,None,W7431 Cty Rd K,53911-0000
+903,ARS Arling-Beef-Phys-Two Stall Garage,None,None,None,W7431 Cty Rd K,53911-0000
+904,ARS Arling-Entom-Field Laboratory,None,None,None,N715 Hwy 51,53911-0000
+907,ARS Arling-Foundation Seed-Processing,None,None,None,W6618 Hwy K,53911-9720
+912,ARS Arling-Hort-House,None,None,None,W6797 Kampen Rd,53911-9746
+913,ARS Arling-Hort-Barn and Milk House,None,None,None,W6797 Kampen Rd,53911-9746
+914,ARS Arling-Hort-Headhouse & Greenhouses,None,None,None,W6797 Kampen Rd,53911-9746
+915,ARS Arling-Hort-Tunnel,None,None,None,W6797 Kampen Rd,53911-9746
+916,ARS Arling-Hort-Field Laboratory,None,None,None,W6797 Kampen Rd,53911-9746
+917,ARS Arling-Hqtrs-Chemical Mgmt Facility,None,None,None,N695 Hopkins Rd,53911-9719
+918,ARS Arling-Hort-Tobacco Shed,None,None,None,W6797 Kampen Rd,53911-9746
+919,ARS Arling-Hort-Garage,None,None,None,W6797 Kampen Rd,53911-9746
+920,ARS Arling-Hort-Chemical Storage,None,None,None,W6797 Kampen Rd,53911-9746
+921,ARS Arling-Hort-Chem Mgmt Facility,None,None,None,W6797 Kampen Rd,53911-9746
+923,ARS Arling-Hort-Machine Storage,None,None,None,W6797 Kampen Rd,53911-9746
+924,ARS Arling-Hqtrs-Froker Shelter,None,None,None,N695 Hopkins Rd,53911-9719
+925,ARS Arling-Hqtrs-Drying & Processing (6),None,None,None,N695 Hopkins Rd,53911-9719
+926,ARS Arling-Hqtrs-Repair Shop,None,None,None,N695 Hopkins Rd,53911-9719
+927,ARS Arling-Agron-Agronomy Laboratory,None,None,None,N695 Hopkins Rd,53911-9719
+928,ARS Arling-Hqtrs-Garage#1,None,None,None,N695 Hopkins Rd,53911-9719
+929,ARS Arling-Hqtrs-Garage#2,None,None,None,N695 Hopkins Rd,53911-9719
+930,ARS Arling-Poult-Garage,None,None,None,W7169 Ramsey Rd,53911-9734
+931,ARS Arling-Sheep-Experimental Barn,None,None,None,W4857 Meek Rd,53911-9734
+932,ARS Arling-Poult-Service,None,None,None,W7169 Ramsey Rd,53911-9734
+933,ARS Arling-Poult-Egg Production House,None,None,None,W7169 Ramsey Rd,53911-9734
+934,ARS Arling-Agron-Shop & Dryer,None,None,None,N695 Hopkins Rd,53911-9719
+935,ARS Arling-Hqtrs-House#2,None,None,None,N715 Hopkins Rd,53911-9719
+936,ARS Arling-Hqtrs-Tire Storage,None,None,None,N695 Hopkins Rd,53911-9719
+939,ARS Arling-Swine-Barn,None,None,None,W4757 Meek Rd,53911-9719
+940,ARS Arling-Bookhout-Livestock Barn#1,None,None,None,W7114 Ramsey Rd,53911-9734
+941,ARS Arling-51-West Barn,None,None,None,N705 Hwy 51,53911-0000
+942,ARS Arling-51-Biofuels Lab,None,None,None,N705 Hwy 51,53911-0000
+945,ARS Arling-Bookhout-Pole Barn#2,None,None,None,W7114 Ramsey Rd,53911-9734
+946,ARS Arling-Bookhout-Pole Barn#3,None,None,None,W7114 Ramsey Rd,53911-9734
+947,ARS Arling-Agron-Weeds,None,None,None,N695 Hopkins Rd,53911-9719
+951,"ARS Arling-Hqtrs-Grain Bin#1- 30,000 Bu",None,None,None,N695 Hopkins Rd,53911-9719
+952,ARS Arling-Ent&Plnt P-Insectary,None,None,None,N1245 Hwy 51,53911-9721
+953,ARS Arling-Ent&Plnt P-Field Laboratory,None,None,None,N1245 Hwy 51,53911-9721
+955,ARS Arling-Ent&Plnt P-Chem Mgmt Facility,None,None,None,N1245 Hwy 51,53911-9721
+958,ARS Arling-Ent&Plnt P-Power and Well Hse,None,None,None,N1245 Hwy 51,53911-9721
+959,ARS Arling-Ent&Plnt P-Storage Shed,None,None,None,N1245 Hwy 51,53911-9721
+960,ARS Arling-Ent&Plnt P-Machine Shed#2,None,None,None,N1245 Hwy 51,53911-9721
+961,ARS Arling-Beef-Nutr-Truss Frame House,None,None,None,N551 Ramsey Rd,53911-9732
+962,ARS Arling-Ent&Plnt P-Machine Shed#3,None,None,None,N1245 Hwy 51,53911-9721
+966,ARS Arling-Hqtrs-Gas Tanks (2),None,None,None,N695 Hopkins Rd,53911-9719
+967,ARS Arling-Beef-Nutr-West Pole Barn,None,None,None,N551 Ramsey Rd,53911-9732
+969,ARS Arling-Beef-Nutr-Feed Bins (4),None,None,None,N551 Ramsey Rd,53911-9732
+972,ARS Arling-Hqtrs-Pole Building,None,None,None,N695 Hopkins Rd,53911-9719
+973,ARS Arling-Beef-Nutr-East Pole Barn,None,None,None,N551 Ramsey Rd,53911-9732
+978,"ARS Arling-Hqtrs-Grain Bin#2-14,000 Bu",None,None,None,N695 Hopkins Rd,53911-9719
+979,ARS Arling-Hqtrs-Truck Shed,None,None,None,N695 Hopkins Rd,53911-9719
+980,ARS Arling-Hqtrs-Feed Mill,None,None,None,N695 Hopkins Rd,53911-9719
+981,ARS Arling-Agron-Machine Storage#2,None,None,None,N695 Hopkins Rd,53911-9719
+982,ARS Arling-Agron-Machine Storage#1,None,None,None,N695 Hopkins Rd,53911-9719
+983,ARS Arling-Agron-Machine Storage#3,None,None,None,N695 Hopkins Rd,53911-9719
+985,ARS Arling-Dairy-Hqtrs,None,None,None,W6723 Badger Ln,53911-9730
+986,ARS Arling-Dairy-Cows-Generator,None,None,None,W6723 Badger Ln,53911-9730
+987,ARS Arling-Dairy-Cows-Sand Separation,None,None,None,W6723 Badger Ln,53911-9730
+988,ARS Arling-Dairy-Cows-Storage Lagoon,None,None,None,W6723 Badger Ln,53911-9730
+990,ARS Arling-Grounds,None,None,None,N695 Hopkins Rd,53911-9719
+993,Barbara A Tooman Large Animal Arena,None,None,None,425 Easterday Ln,53706-1100
+996,O J Noer Turfgrass Chem Mgmt Facility,None,None,None,2520 S Pleasant View Rd,53593-0000
+997,O J Noer Turfgrass Storage Shed,None,None,None,2510 S Pleasant View Rd,53593-0000
+999,Monroe St 1930,None,None,None,1930 Monroe St,53711-2027
+1008,Clymer Pl 923 (Inactive),None,None,None,923 Clymer Pl,53715-1119
+1009,Clymer Pl 911 (Inactive),None,None,None,911 Clymer Pl,53715-1118
+1015,Meriter-McConnell Hall,None,None,None,1010 Mound St,53715-1532
+1017,Physical Education Storage 3,None,None,None,2075 Willow Dr,53706-1128
+1020,McClimon Track Shelter-South,None,None,None,702 Walnut St,53726-0000
+1021,McClimon Track Shelter-North,None,None,None,702 Walnut St,53726-0000
+1023,McClimon Track Concession Stand,None,None,None,702 Walnut St,53726-0000
+1024,McClimon Track Storage,None,None,None,702 Walnut St,53726-0000
+1025,Storage Shed-Far West Recreation Field (Inactive),None,None,None,2415 Observatory Dr,53706-0000
+1026,Goodman Softball-Storage Building 2,None,None,None,1020 Highland Ave,53706-0000
+1029,East Recreation Fields Building,None,None,None,620 Elm Dr,53706-1126
+1035,Eagle Heights Garden Garage,None,None,None,2434 Lake Mendota Dr,53705-1507
+1045,Meriter-Park,None,None,None,202 S Park St,53715-1507
+1050,Class of 1918 Marsh,None,None,None,2003 University Bay Dr,53706-0000
+1051,Picnic Point-Biccore Prairie,None,None,None,2000 University Bay Dr,53706-0000
+1052,Picnic Point-Physical Plant Storage,None,None,None,2000 University Bay Dr,53706-0000
+1053,Picnic Point-Bath House,None,None,None,2000 University Bay Dr,53706-0000
+1055,Veterans Administration Hospital,None,None,None,2500 Overlook Ter,53705-2254
+1060,Brooks St N 215-217,None,None,None,215 N Brooks St,53715-1165
+1064,Delaplaine Ct 1100,None,None,None,1100 Delaplaine Ct,53715-1840
+1069,"Levy Hall, Irving & Dorothy",None,None,None,232 N Park St,53715-0000
+1071,Johnson St W 935 (Inactive),None,None,None,935 W Johnson St,53715-1005
+1072,Johnson St W 702,None,None,None,702 W Johnson St,53715-1005
+1075,Goodman Softball All Season Practice Facility,None,None,None,1010 Highland Ave,53705-2272
+1077,Fleet & Service Garage,None,None,None,27 N Charter St,53715-1238
+1078,Park St N 21,None,None,None,21 N Park St,53715-1218
+1079,"Smith Residence Hall, Newell J",None,None,None,35 N Park St,53715-1218
+1080,Fueling Station-Fleet Garage,None,None,None,24 N Mills St,53715-1238
+1082,Bernard Ct 206,None,None,None,206 Bernard Ct,53715-1115
+1083,Veterinary Medicine Hay Storage 2,None,None,None,405 Easterday Ln,53706-1253
+1084,Bernard Ct 204,None,None,None,204 Bernard Ct,53715-2263
+1085,Dayton St W 908,None,None,None,908 W Dayton St,53715-1127
+1086,Dayton St W 910/912,None,None,None,910 W Dayton St,53715-1127
+1087,KRC-PSL-Boat Storage Building,None,None,None,3725 Schneider Dr,53589-3034
+1088,KRC-PSL-Storage Bldg,None,None,None,3725 Schneider Dr,53589-3034
+1089,Bernard Ct 209 (Inactive),None,None,None,209 Bernard Ct,53715-2261
+1090,Storage Tank-West Campus,None,None,None,1935 Linden Dr,53706-1108
+1094,Johnson St W 724,None,None,None,724 W Johnson St,53715-1079
+1095,Monroe St 1433,None,None,None,1433 Monroe St,53711-2018
+1098,Inventory Report-Boats and Motors,None,None,None,For Business Services Purposes,00000-0000
+1100,Trout Lake-Grounds,None,None,None,3110 Trout Lake Station Dr,54512-0000
+1101,Trout Lake-Biological Research Lab,None,None,None,3110 Trout Lake Station Dr,54512-0000
+1102,Trout Lake-Fish Cabin,None,None,None,3124 Trout Lake Station Dr,54512-0000
+1103,Trout Lake-Plankton Cabin,None,None,None,3122 Trout Lake Station Dr,54512-0000
+1104,Trout Lake-Chemistry Cabin,None,None,None,3118 Trout Lake Station Dr,54512-0000
+1105,Trout Lake-Bacteriology Cabin,None,None,None,3116 Trout Lake Station Dr,54512-0000
+1106,Trout Lake-House of Lords,None,None,None,3114 Trout Lake Station Dr,54512-0000
+1107,Trout Lake-Workshop,None,None,None,3110 Trout Lake Station Dr,54512-0000
+1108,Trout Lake-Gas Shack,None,None,None,3110 Trout Lake Station Dr,54512-0000
+1109,Trout Lake-Storage and Garage,None,None,None,3110 Trout Lake Station Dr,54512-0000
+1110,Trout Lake-Shower Building,None,None,None,3120 Trout Lake Station Dr,54512-0000
+1111,Trout Lake-Juday House,None,None,None,3130 Trout Lake Station Dr,54512-0000
+1112,Trout Lake-Jewell Cabin,None,None,None,3138 Trout Lake Station Dr,54512-0000
+1113,Trout Lake-Meloche Cabin,None,None,None,3140 Trout Lake Station Dr,54512-0000
+1114,Trout Lake-Merrill Cabin,None,None,None,3139 Trout Lake Station Dr,54512-0000
+1115,Trout Lake-Halverson Cabin,None,None,None,3137 Trout Lake Station Dr,54512-0000
+1117,Trout Lake-Thomas M Frost House,None,None,None,10810 County Hwy N,54512-0000
+1118,Trout Lake-Pump Pit,None,None,None,3110 Trout Lake Station Dr,54512-0000
+1119,Trout Lake-Research Outbuilding,None,None,None,3110 Trout Lake Station Dr,54512-0000
+1130,Pine Bluff-Rolling Building,None,None,None,4065 Observatory Rd,53528-8815
+1131,Pine Bluff-Seabox Building,None,None,None,4065 Observatory Rd,53528-8815
+1139,Stoughton Rd S 2109,None,None,None,2109 S Stoughton Rd,53716-2851
+1145,Sellery Shed,None,None,None,872 W Dayton St,53703-2318
+1148,Ropes Course-Grounds,None,None,None,3725 Schneider Dr,53589-3034
+1149,Ropes Course Pavilion,None,None,None,3725 Schneider Dr,53589-3034
+1150,KRC-Grounds,None,None,None,3725 Schneider Dr,53589-3034
+1151,KRC-PSL-Shop and Office,None,None,None,3725 Schneider Dr,53589-3034
+1153,KRC-PSL-Transformers,None,None,None,3725 Schneider Dr,53589-3034
+1155,KRC-PSL-Compressor Bldg,None,None,None,3725 Schneider Dr,53589-3034
+1156,KRC-PSL-Chemical Storage Bldg 2,None,None,None,3725 Schneider Dr,53589-3034
+1158,KRC-PSL-Storage Bldg 3,None,None,None,3725 Schneider Dr,53589-3034
+1159,KRC-SRC-Storage Bldg 2,None,None,None,3735 County Rd B,53589-3034
+1161,KRC-Farm B Silo,None,None,None,3777 Schneider Dr,53589-3034
+1162,KRC-SRC-Chemical Storage Bldg,None,None,None,3731 Schneider Dr,53589-3034
+1163,KRC-Farm B Barn,None,None,None,3777 Schneider Dr,53589-3034
+1164,KRC-SRC-Power Metering Bldg (Alliant),None,None,None,3735 County Rd B,53589-3034
+1165,KRC-SRC-Storage Bldg 1,None,None,None,3731 Schneider Dr,53589-3034
+1166,KRC-PSL-Compressor Bldg,None,None,None,3731 Schneider Dr,53589-3034
+1168,KRC-Farm B House,None,None,None,3777 Schneider Dr,53589-3034
+1169,KRC-SRC-Ednor M Rowe Building,None,None,None,3731 Schneider Dr,53589-3034
+1170,KRC-SRC-Tantalus,None,None,None,3735 County Rd B,53589-3034
+1171,KRC-SRC-Tantalus Control House,None,None,None,3735 County Rd B,53589-3034
+1172,KRC-PSL-Records Building,None,None,None,3735 County Rd B,53589-3034
+1173,KRC-Med Physics-Tomotherapy,None,None,None,3725 Schneider Dr,53589-3034
+1174,KRC-SRC-Auxiliary Transformer,None,None,None,3731 Schneider Dr,53589-3034
+1176,KRC-Med Physics-Garage (Inactive),None,None,None,3725 Schneider Dr,53589-3034
+1177,KRC-SRC-Tantalus Silo,None,None,None,3735 County Rd B,53589-3034
+1178,KRC-Med Physics-Trailer 14,None,None,None,3731 Schneider Dr,53589-3034
+1179,KRC-SRC-Tantalus Silo 2,None,None,None,3735 County Rd B,53589-3034
+1181,KRC-Farm A Tobacco Shed,None,None,None,3717 County Rd B,53589-3034
+1183,KRC-Farm A Machine Shed,None,None,None,3717 County Rd B,53589-3034
+1192,KRC-PSL-Grounds Storage,None,None,None,3725 Schneider Dr,53589-3034
+1195,KRC-PSL-Instrument Storage Facility,None,None,None,3725 Schneider Dr,53589-3034
+1197,KRC-PSL-Garage,None,None,None,3725 Schneider Dr,53589-3034
+1198,KRC-PSL-Well House,None,None,None,3725 Schneider Dr,53589-3034
+1199,KRC-PSL-Well 3,None,None,None,3725 Schneider Dr,53589-3034
+1200,Apartment Facilities Office,None,None,None,2902 Haight Rd,53705-2267
+1201,University Houses 1,None,None,None,Univ Houses,53705-0000
+1202,University Houses 2,None,None,None,Univ Houses,53705-0000
+1203,University Houses 3,None,None,None,Univ Houses,53705-0000
+1205,University Houses 5,None,None,None,Univ Houses,53705-0000
+1206,University Houses 6,None,None,None,Univ Houses,53705-0000
+1207,University Houses 7,None,None,None,Univ Houses,53705-0000
+1209,University Houses 9,None,None,None,Univ Houses,53705-0000
+1210,University Houses 10,None,None,None,Univ Houses,53705-0000
+1211,University Houses 11,None,None,None,Univ Houses,53705-0000
+1213,University Houses 13,None,None,None,Univ Houses,53705-0000
+1214,University Houses 14,None,None,None,Univ Houses,53705-0000
+1215,University Houses 15,None,None,None,Univ Houses,53705-0000
+1217,University Houses 17,None,None,None,Univ Houses,53705-0000
+1218,University Houses 18,None,None,None,Univ Houses,53705-0000
+1219,University Houses 19,None,None,None,Univ Houses,53705-0000
+1221,University Houses 21,None,None,None,Univ Houses,53705-0000
+1222,University Houses 22,None,None,None,Univ Houses,53705-0000
+1223,University Houses 23,None,None,None,Univ Houses,53705-0000
+1225,University Houses 25,None,None,None,Univ Houses,53705-0000
+1226,University Houses 26,None,None,None,Univ Houses,53705-0000
+1227,University Houses 27,None,None,None,Univ Houses,53705-0000
+1229,University Houses 29,None,None,None,Univ Houses,53705-0000
+1230,University Houses 30,None,None,None,Univ Houses,53705-0000
+1231,University Houses 31,None,None,None,Univ Houses,53705-0000
+1233,University Houses 33,None,None,None,Univ Houses,53705-0000
+1234,University Houses 34,None,None,None,Univ Houses,53705-0000
+1235,University Houses 35,None,None,None,Univ Houses,53705-0000
+1237,University Houses 37,None,None,None,Univ Houses,53705-0000
+1238,University Houses 38,None,None,None,Univ Houses,53705-0000
+1239,Campus Childcare,None,None,None,39 University Houses,53705-1821
+1241,University Houses 41,None,None,None,Univ Houses,53705-0000
+1243,"Ogg Residence Hall, Frederic A",None,None,None,835 W Dayton St,53706-1702
+1245,Sellery Residence Hall,None,None,None,821 W Johnson St,53706-1701
+1246,Witte Residence Hall,None,None,None,615 W Johnson St,53706-1723
+1249,Gordon Dining & Event Center,None,None,None,770 W Dayton St,53715-1110
+1250,Apartment Facilities Warehouse,None,None,None,2902 Haight Rd,53705-2267
+1279,Eagle Heights Underground Reservoir,None,None,None,For Business Services Purposes,00000-0000
+1280,Eagle Heights 208,None,None,None,Eagle Hts,53705-0000
+1281,Eagle Heights 209,None,None,None,Eagle Hts,53705-0000
+1282,Eagle Heights 201,None,None,None,Eagle Hts,53705-0000
+1283,Eagle Heights 203,None,None,None,Eagle Hts,53705-0000
+1284,Eagle Heights 205,None,None,None,Eagle Hts,53705-0000
+1285,Eagle Heights 202,None,None,None,Eagle Hts,53705-0000
+1286,Eagle Heights 204,None,None,None,Eagle Hts,53705-0000
+1287,Eagle Heights 206,None,None,None,Eagle Hts,53705-0000
+1288,Eagle Heights 207,None,None,None,Eagle Hts,53705-0000
+1290,Eagle Heights 106,None,None,None,Eagle Hts,53705-0000
+1291,Eagle Heights 108,None,None,None,Eagle Hts,53705-0000
+1292,Eagle Heights 101,None,None,None,Eagle Hts,53705-0000
+1293,Eagle Heights 104,None,None,None,Eagle Hts,53705-0000
+1294,Eagle Heights 107,None,None,None,Eagle Hts,53705-0000
+1295,Eagle Heights 102,None,None,None,Eagle Hts,53705-0000
+1296,Eagle Heights 103,None,None,None,Eagle Hts,53705-0000
+1297,Eagle Heights 105,None,None,None,Eagle Hts,53705-0000
+1298,Eagle Heights 109,None,None,None,Eagle Hts,53705-0000
+1299,University Apartments Community Center,None,None,None,611 Eagle Heights Dr,53705-1501
+1301,Eagle Heights 301,None,None,None,Eagle Hts,53705-0000
+1302,Eagle Heights 302,None,None,None,Eagle Hts,53705-0000
+1303,Eagle Heights 304,None,None,None,Eagle Hts,53705-0000
+1304,Eagle Heights 306,None,None,None,Eagle Hts,53705-0000
+1305,Eagle Heights 307,None,None,None,Eagle Hts,53705-0000
+1306,Eagle Heights 308,None,None,None,Eagle Hts,53705-0000
+1307,Eagle Heights 303,None,None,None,Eagle Hts,53705-0000
+1308,Eagle Heights 309,None,None,None,Eagle Hts,53705-0000
+1309,Eagle Heights 305,None,None,None,Eagle Hts,53705-0000
+1311,Eagle Heights 401,None,None,None,Eagle Hts,53705-0000
+1312,Eagle Heights 403,None,None,None,Eagle Hts,53705-0000
+1313,Eagle Heights 405,None,None,None,Eagle Hts,53705-0000
+1314,Eagle Heights 408,None,None,None,Eagle Hts,53705-0000
+1315,Eagle Heights 404,None,None,None,Eagle Hts,53705-0000
+1316,Eagle Heights 406,None,None,None,Eagle Hts,53705-0000
+1317,Eagle Heights 402,None,None,None,Eagle Hts,53705-0000
+1318,Eagle Heights 407,None,None,None,Eagle Hts,53705-0000
+1321,Eagle Heights 502,None,None,None,Eagle Hts,53705-0000
+1322,Eagle Heights 503,None,None,None,Eagle Hts,53705-0000
+1323,Eagle Heights 504,None,None,None,Eagle Hts,53705-0000
+1324,Eagle Heights 506,None,None,None,Eagle Hts,53705-0000
+1325,Eagle Heights 509,None,None,None,Eagle Hts,53705-0000
+1326,Eagle Heights 505,None,None,None,Eagle Hts,53705-0000
+1327,Eagle Heights 501,None,None,None,Eagle Hts,53705-0000
+1328,Eagle Heights 507,None,None,None,Eagle Hts,53705-0000
+1329,Eagle Heights 508,None,None,None,Eagle Hts,53705-0000
+1331,Eagle Heights 602,None,None,None,Eagle Hts,53705-0000
+1332,Eagle Heights 604,None,None,None,Eagle Hts,53705-0000
+1333,Eagle Heights 605,None,None,None,Eagle Hts,53705-0000
+1334,Eagle Heights 606,None,None,None,Eagle Hts,53705-0000
+1335,Eagle Heights 608,None,None,None,Eagle Hts,53705-0000
+1336,Eagle Heights 610,None,None,None,Eagle Hts,53705-0000
+1337,Eagle Heights 603,None,None,None,Eagle Hts,53705-0000
+1338,Eagle Heights 607,None,None,None,Eagle Hts,53705-0000
+1339,Eagle Heights 601,None,None,None,Eagle Hts,53705-0000
+1340,Eagle Heights 609,None,None,None,Eagle Hts,53705-0000
+1343,Eagle Heights 706,None,None,None,Eagle Hts,53705-0000
+1344,Eagle Heights 707,None,None,None,Eagle Hts,53705-0000
+1345,Eagle Heights 708,None,None,None,Eagle Hts,53705-0000
+1349,Eagle Heights 912-914,None,None,None,Eagle Hts,53705-0000
+1350,Eagle Heights 915-917,None,None,None,Eagle Hts,53705-0000
+1352,Eagle Heights 926-928,None,None,None,Eagle Hts,53705-0000
+1353,Eagle Heights 929-931,None,None,None,Eagle Hts,53705-0000
+1354,Eagle Heights 932-934,None,None,None,Eagle Hts,53705-0000
+1359,Apartment Facilities Storage,None,None,None,200 Eagle Heights Dr,53705-0000
+1400,Clinical Science Center,None,None,None,600 Highland Ave,53792-3284
+1420,CSC Med Flight Helicopter Pad,None,None,None,600 Highland Ave,53792-3284
+1421,CSC Generator Shed,None,None,None,904 Emergency Dr,53792-1210
+1425,Parking Garage 63-Children's Hospital,None,None,None,1655 Highland Ave,53792-0000
+1426,American Family Children's Hospital,None,None,None,1675 Highland Ave,53792-0002
+1435,UW Medical Foundation Centennial Building,None,None,None,1685 Highland Ave,53705-2281
+1480,Health Sciences Learning Center,None,None,None,750 Highland Ave,53705-2221
+1485,Wisconsin Institutes for Medical Research,None,None,None,1111 Highland Ave,53705-2275
+1486,WIMR Shed,None,None,None,1191 Highland Ave,53705-2275
+1578,UW-Eau Claire-Barron Co Library Building,None,None,None,1800 College Dr,54868-2414
+1650,ARS Rhine-Stella-Plastic Greenhouse#8,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+1701,Emergency Phone-Walnut St N 702,None,None,None,702 Walnut St,53726-0000
+1702,Emergency Phone-Linden Dr 1590,None,None,None,1590 Linden Dr,53706-1521
+1703,Emergency Phone-Linden Dr 1202,None,None,None,1202 Linden Dr,53706-1525
+1704,Emergency Phone-Easterday Ln 445,None,None,None,445 Easterday Ln,53706-1253
+1705,Emergency Phone-Observatory Dr 2101,None,None,None,2101 Observatory Dr,53706-1212
+1706,Emergency Phone-Alicia Ashman Bridge,None,None,None,1701 Linden Dr,53706-0000
+1707,Emergency Phone-Social Science Lake Path,None,None,None,1190 Observatory Dr,53706-1320
+1708,Kronshage Dock Phone,None,None,None,Kronshage Dock,53715-1203
+1710,Emergency Phone-Observatory Dr 1402,None,None,None,1402 Observatory Dr,53706-0000
+1712,Emergency Phone-University Bay Dr 2000,None,None,None,2000 University Bay Dr,53706-0000
+1714,Lift Station-Lot 76,None,None,None,2350 Marsh Dr,53706-0000
+1715,Lift Station-Lot 62,None,None,None,501 Easterday Ln,53705-0000
+1716,Lift Station-Lot 40,None,None,None,450 Babcock Dr,53706-1518
+1718,Emergency Phone-Fleet Garage,None,None,None,27 N Charter St,53715-1238
+1719,Emergency Phone-Herrick Dr 502,None,None,None,502 Herrick Dr,53706-1000
+1721,Emergency Phone-Frautschi Point,None,None,None,2662 Lake Mendota Dr,53705-1507
+1722,Lift Station-Chazen,None,None,None,752 University Ave,53706-1411
+1723,Lift Station-WIMR,None,None,None,1113 Highland Ave,53705-2275
+1724,Lift Station-Lot 37,None,None,None,644 Elm Dr,53706-1134
+1725,Lift Station-Stock Pavilion,None,None,None,1679 Linden Dr,53706-1536
+1726,Lift Station-Kronshage,None,None,None,1634 Kronshage Dr,53706-1203
+1727,Lift Station-Alumni,None,None,None,646 N Lake St,53706-1410
+1758,Memorial Union Brat Stand,None,None,None,850 Langdon St,53706-1419
+1999,Brooks St N 219-221,None,None,None,219 N Brooks St,53715-1116
+2005,006L HC WHITE GARAGE LOWR,6,Yes,East Campus,600 N. Park Street,None
+2006,006U HC WHITE GARAGE UPPR,6,Yes,East Campus,600 N. Park Street,None
+2007,007  GRAINGER HALL GARAGE,7,Yes,East Campus,325 N. Brooks Street,None
+2020,011  BASCOM HALL,11,No,East Campus,1125 Observatory Drive,None
+2054,017 ENGINEERING DR RAMP,17,Yes,South Campus,1525 Engineering Drive,None
+2058,020  UNIVERSITY AVE RAMP,20,Yes,Central Campus,1390 University Avenue,None
+2063,023  VAN HISE GARAGE,23,No,Central Campus,1220 Linden Drive,None
+2066,027  NANCY NICHOLAS HALL GARAGE,27,Yes,Central Campus,1330 Linden Drive,None
+2068,029  N PARK STREET RAMP,29,Yes,East Campus,21 N. Park Street,None
+2073,036  OBSERVATORY DR RAMP,36,Yes,Central Campus,1645 Observatory Drive,None
+2075,038  MICROBIAL SCI GARAGE,38,No,Central Campus,645 Babcock Drive,None
+2083,046  LAKE & JOHNSON RAMP,46,Yes,East Campus,301 N. Lake Street,None
+2100,063 CHILDRENS HOSP GARAGE,63,Yes,West Campus,1655 Highland Avenue,None
+2104,067  LINDEN DRIVE RAMP,67,Yes,Central Campus,2002 Linden Drive,None
+2108,075  UW HOSPITAL RAMP,75,Yes,West Campus,1620 Highland Avenue,None
+2109,076  UNIV BAY DRIVE RAMP,76,Yes,West Campus,2501 University Bay Drive,None
+2113,080  UNION SOUTH GARAGE,80,Yes,South Campus,1308 W. Dayton Street,None
+2116,083  FLUNO CENTER GARAGE,83,Yes,East Campus,314 N. Frances Street,None
+2128,095  HEALTH SCI GARAGE,95,No,West Campus,750 Highland Avenue,None
+2302,CRSC Replacement,None,None,None,1436 Monroe St,53711-2051
+2320,063V AFCH Valet,63,No,West Campus,1655 Highland Avenue,None
+4001,Hwy 12 E 3001,None,None,None,3001 E Hwy 12,54751-0000
+4006,K St S 206,None,None,None,206 S K St,54656-2180
+4014,Eleventh St S 227,None,None,None,227 S Eleventh St,54615-1550
+4083,Second Ave S 816,None,None,None,816 Second Ave S,54650-0000
+4099,Kuband Antenna,None,None,None,3319 W Beltline Hwy,53713-2834
+4107,Pleasant View Rd S 447,None,None,None,447 S Pleasant View Rd,53593-9692
+4108,Pleasant View Rd S 451,None,None,None,451 S Pleasant View Rd,53593-9692
+4109,Blue Mounds St 211,None,None,None,211 Blue Mounds St,53572-2160
+4117,Glover Rd S 129,None,None,None,129 S Glover Rd,54022-0000
+4118,Nicolet Dr 2420 - Wood Hall,None,None,None,"2420 Nicolet Dr, Wood Hall",54311-7001
+4119,10th St N 1243,None,None,None,1243 N 10th St,53205-2559
+4120,Clairemont Ave W 1221,None,None,None,1221 W Clairemont Ave,54701-6126
+4123,Catlin Ave 1805,None,None,None,1805 Catlin Ave,54880-0000
+4125,Hastings Way S 1907,None,None,None,1907 S Hastings Way,54701-4551
+4129,WHLA & WLSU Antenna,None,None,None,955 Tschumper Rd,55947-0000
+4130,10th St W 410,None,None,None,410 W 10th St,55806-0000
+4131,Industrial Park Rd 324,None,None,None,324 Industrial Park Rd,54806-0000
+4151,WHLA & WLSU Studio,None,None,None,515 N 15th St,54601-3666
+4220,Mound Rd 1220,None,None,None,1220 Mound Rd,53404-0000
+4737,Washington St W 6737,None,None,None,6737 W Washington St,53214-0000
+6035,Meriter-Capital,None,None,None,309 W Washington Ave,53703-2701
+8002,Blue Mounds Holding Facility,None,None,None,10362 County Trunk Hwy ID,53517-0000
+8003,Main St W 634 (Inactive),None,None,None,634 W Main St,53703-2662
+8004,Emil St 1402,None,None,None,1402 Emil St,53703-2312
+8005,Washington Ave W 625,None,None,None,625 W Washington Ave,53703-2637
+8010,Marsh Ct 15,None,None,None,15 Marsh Ct,53718-8805
+8013,Elcho-Land Use,None,None,None,For SMO Purposes,00000-0000
+8017,University Ave 4702,None,None,None,4702 University Ave,53705-2168
+8020,Marshall Ct 2828,None,None,None,2828 Marshall Ct,53705-2276
+8022,Johnson St W 1221,None,None,None,1221 W Johnson St,53715-1190
+8023,Capitol Dr E 2323,None,None,None,2323 E Capitol Dr,54911-0000
+8025,Winsand Dr 40195,None,None,None,40195 Winsand Dr,54760-0000
+8029,Bernard Ct 210 (Inactive),None,None,None,210 Bernard Ct,53715-2262
+8030,Science Dr 440,None,None,None,440 Science Dr,53711-1064
+8032,Maquina Sculpture,None,None,None,Engineering Mall,53706-0000
+8034,Tokay Blvd 5752,None,None,None,5752 Tokay Blvd,53719-1237
+8035,Martin Luther King Blvd 210,None,None,None,210 Martin Luther King Jr Blvd,53703-3340
+8037,Cty P 4507,None,None,None,4507 Cty P,00000-0000
+8042,Park St S 2300,None,None,None,2300 S Park St,53713-1997
+8043,Dayton St W 924,None,None,None,924 W Dayton St,53715-1131
+8044,University Ave 1403,None,None,None,1403 University Ave,53715-1055
+8051,Park St S 20,None,None,None,20 S Park St,53715-1348
+8052,UW Hospital Clinic-Middleton Hills,None,None,None,6720 Frank Lloyd Wright Dr,53562-1753
+8053,Midvale Blvd N 310,None,None,None,310 N Midvale Blvd,53705-3265
+8054,Dayton St W 1014,None,None,None,1014 W Dayton St,53715-1129
+8058,University of Chicago Press-Warehouse,None,None,None,11030 S Langley Ave,60628-3830
+8059,Research Park Blvd 5901 (Inactive),None,None,None,5901 Research Park Blvd,53719-1252
+8064,State Lab of Hygiene-Agriculture Dr,None,None,None,2601 Agriculture Dr,53718-6780
+8065,ARS Lancaster-Fischer Farm,None,None,None,For SMO Purposes,00000-0000
+8066,Arena WI-Land Lease,None,None,None,For SMO Purposes,00000-0000
+8067,Lakeland Airport,None,None,None,1545 N Farming Rd,54568-9586
+8068,University Green 8520,None,None,None,8520 University Green,53562-2508
+8069,UW Health West Clinic,None,None,None,451 Junction Rd,53717-2656
+8071,UW Health East Clinic,None,None,None,5249 E Terrace Dr,53718-8339
+8072,Park St S 2238,None,None,None,2238 S Park St,53713-0000
+8074,State Lab of Hygiene-Walton Commons West (Inactive),None,None,None,2810 Walton Commons West,53718-3900
+8075,County Hwy MM 3083 - Office,None,None,None,3083 County Hwy MM,53711-0000
+8076,County Hwy MM 3083 - South Quonset,None,None,None,3083 County Hwy MM,53711-0000
+8077,County Hwy MM 3083 - N Pole Bldg,None,None,None,3083 County Hwy MM,53711-0000
+8078,County Hwy MM 3083 - Grounds,None,None,None,3083 County Hwy MM,53711-0000
+8079,Commerce Park Dr 2906,None,None,None,2906 Commerce Park Dr,53719-5153
+8080,Allen Garden-Benches,None,None,None,620 Babcock Dr,53706-1210
+8081,Allen Garden-Fons Vitae Sculpture,None,None,None,620 Babcock Dr,53706-1210
+8082,Allen Garden-Arch,None,None,None,620 Babcock Dr,53706-1210
+8083,Science Dr 545,None,None,None,545 Science Dr,53711-1060
+8084,College Dr 5364 (Inactive),None,None,None,5364 College Dr,54501-0000
+8086,WSUM Tower,None,None,None,7263 Hwy A,53508-0000
+8088,WSUM Land,None,None,None,7263 Hwy A,53508-0000
+8089,Thai Pavilion & Garden,None,None,None,3402 Atwood Ave,53714-0000
+8093,Commercial Ave 1743,None,None,None,1743 Commercial Ave,53704-4617
+8094,Rosa Rd S 505 (inactive),None,None,None,505 S Rosa Rd,53719-1235
+8098,Washington Ave W 222,None,None,None,222 W Washington Ave,53703-2719
+8100,Bayfield County-RR Corridor,None,None,None,For SMO Purposes,00000-0000
+8101,Steimke Farm,None,None,None,W6664 Kampen Rd,53911-9746
+8102,Bergquist Farm,None,None,None,W7260 Toser Lake Rd,54871-0000
+8103,Bacon Farm,None,None,None,Route 1,54943-0000
+8104,Meyer Brothers Farm,None,None,None,11190 Milling Ln,54449-8501
+8105,Charmany Dr 510,None,None,None,510 Charmany Dr,53719-1235
+8106,Pennsylvania Ave 2180,None,None,None,Pennsylvania Ave 2180,53704-4256
+8107,Pennsylvania Ave 2230,None,None,None,2230 Pennsylvania Ave,53704-4256
+8119,WI Cranberry Research Station,None,None,None,W8510 County Rd O,54615-1550
+8122,State St 711,None,None,None,711 State St,53703-1088
+8124,Science Dr 555-585,None,None,None,585 Science Dr,53711-1080
+8126,Regent St 700,None,None,None,700 Regent St,53715-2634
+8127,Fifth St 807-Antigo,None,None,None,807 Fifth St,54409-1938
+8128,Science Dr 565-575,None,None,None,575 Science Dr,53711-1060
+8133,Lakeside St E 330,None,None,None,330 E Lakeside St,53715-0000
+8134,McKee Rd 6064,None,None,None,6064 McKee Rd,53719-5117
+8135,Element Way 5510,None,None,None,5510 Element Way,53719-0000
+8136,Westfield Rd S 301,None,None,None,301 S Westfield Rd,53717-1730
+8137,Dayton St W 914,None,None,None,914 W Dayton St,53715-1127
+8140,Charter St N 26 Bldg #1,None,None,None,26 N Charter St,53715-0000
+8141,Charter St N 26 Bldg #2,None,None,None,26 N Charter St,53715-0000
+8142,Charter St N 26 Bldg #3,None,None,None,26 N Charter St,53715-0000
+8201,Shirley Rd D 3241 Tower,None,None,None,3241 D Shirley Rd,54208-0000
+8202,Shirley Rd D 3241 Land,None,None,None,3241 D Shirley Rd,54208-0000
+8225,"Walkway 449, 453, 455, 468",None,None,None,1400 University Ave,53706-1526
+8245,Sellery Retail,None,None,None,801 W Johnson St,53706-1701
+8304,MRI Cassette Building,None,None,None,600 Highland Ave,53792-3284
+8319,Excelsior Dr 8010,None,None,None,8010 Excelsior Dr,53717-1951
+8326,UW Health Odana Road Clinic,None,None,None,5618 Odana Rd,53719-1208
+8328,UW Health Clinic-West Towne,None,None,None,7102 Mineral Point Rd,53717-1706
+8329,UW Health Clinic-East Towne,None,None,None,4122 East Towne,53704-3732
+8331,UW Medical Foundation,None,None,None,8007 Excelsior Dr,53717-1949
+8336,"Wisconsin Dialysis, Inc",None,None,None,3034 Fish Hatchery Rd,53713-3125
+8341,UW Health Clinic-Stoughton,None,None,None,1001 Nygaard St,53589-5495
+8343,UW Clinic-Fitchburg,None,None,None,5543 E Cheryl Pkwy,53711-5376
+8350,Marshall Ct 2701,None,None,None,2701 Marshall Ct,53705-2255
+8353,Marshall Ct 2707,None,None,None,2707 Marshall Ct,53705-2255
+8354,Rosa Rd S 504,None,None,None,504 S Rosa Rd,53707-0000
+8355,Nobel Dr 5515,None,None,None,5515 Nobel Dr,53711-0000
+8356,Femrite Dr 5830,None,None,None,5830 Femrite Dr,53718-0000
+8357,Agriculture Dr 2811,None,None,None,2811 Agriculture Dr,53718-6777
+8358,Lake Ave 929,None,None,None,929 Lake Ave,52403-0000
+8359,Mason St W 3759,None,None,None,3759 W Mason St,54155-8811
+8360,UW Health Yahara,None,None,None,1050 E Broadway,53716-0000
+8361,UW Health DeForest/Windsor,None,None,None,4131 Meridian Dr,53598-0000
+8362,UW Health Admin Office Bldg,None,None,None,7974 UW Health Ct,53562-0000
+8363,UW Health Columbus,None,None,None,1511 Park Ave,53925-0000
+8364,UW Health Digestive Health Ctr,None,None,None,750 University Row,53705-1311
+8366,UW Health East Madison Hospital,None,None,None,4602 Eastpark Blvd,53718-2002
+8368,Hadley St E 121-MKE,None,None,None,121 E Hadley St,53212-0000
+8369,Maryland Ave NE 100,None,None,None,100 Maryland Ave NE,20002-5625
+8371,DHS Green Bay Regional Office,None,None,None,200 N Jefferson St,54301-0000
+8372,DHS Rhinelander Regional Office,None,None,None,2187 N Stevens St,54501-0000
+8373,DHS Milwaukee Regional Office,None,None,None,819 N 6th St,53203-0000
+8374,DHS Eau Claire Regional Office,None,None,None,610 Gibson St,54701-3696
+8375,DHS Madison Regional Office,None,None,None,3319 W Beltline Hwy,53713-2834
+8376,DHS STI Unit,None,None,None,1 W Wilson St,53703-3445
+8377,DHS Keenan Health Center,None,None,None,3200 N 36th St,53206-0000
+8401,James Lovell St N 728 (Inactive),None,None,None,728 N James Lovell St,53233-2408
+8402,Stella Creek Rd,None,None,None,Stella Creek Rd,54501-0000
+8403,South St 227,None,None,None,227 South St,54615-0000
+8404,Lake Mendota Dr 2526,None,None,None,2526 Lake Mendota Dr,53705-1507
+8405,Kennedy Rd 2815,None,None,None,2815 Kennedy Rd,54545-0475
+8406,640th Ave,None,None,None,640th Ave,54749-0000
+8409,Park S 1,None,None,None,1 S Park St,53715-1375
+8410,S Townline Rd 380,None,None,None,380 S Townline Rd,54982-6900
+8411,Washburn County Services Center,None,None,None,304 2nd St,54871-4447
+8412,Rock County Complex Building A,None,None,None,3506 N Hwy 51,Retrieving d
+8413,Racine County Services Center,None,None,None,1072 Milwaukee Ave,53105-1362
+8414,Northwoods Center,None,None,None,5350 College Dr,54501
+8416,Hillside Hall at UW-Green Bay Manitowoc,None,None,None,705 Viebahn St,54220-6601
+8417,Langlade County Health Service Center,None,None,None,1225 Langlade Rd,54409-2762
+8418,La Crosse County Administrative Center,None,None,None,212 N 6th St,54601-3355
+8419,Kewaunee County Fairgrounds,None,None,None,625 3rd St,54217-1264
+8420,Juneau County Courthouse,None,None,None,220 E State St,53948-1398
+8422,Columbia County Administration Building,None,None,None,112 E Edgewater St,53901-2213
+8423,Brown County STEM Innovation Center,None,None,None,2019 Technology Way,54311-3408
+8424,Lafayette County Offices,None,None,None,700 Main St,53530-1207
+8426,Schutz Rd W9110,None,None,None,W9110 Schutz Road,53555
+8427,7th Ave 106,None,None,None,106 7th Ave,54409
+8995,Antarctic Research Inst-South Pole,None,None,None,South Pole,00000-0000
+9001,Wisconsin Entomology Trailer,None,None,None,630 Oak St,53575-1127
+9004,Rec Sports Temporary Building (inactive),None,None,None,1603 University Bay Dr,53706-0000
+9011,Linden Dr Temporary Bridge,None,None,None,2095 Linden Dr,53706-0000
+9014,Lelah Starks-Trailer,None,None,None,7749 Hwy K,54501-9140
+9046,High Energy Physics-Switzerland,None,None,None,Switzerland,00000-0000
+9047,High Energy Physics-Germany,None,None,None,Germany,00000-0000
+9048,South Pole Station,None,None,None,South Pole,00000-0000
+9051,Porter Boathouse Fuel Tank,None,None,None,680 Babcock Dr,53706-1210
+9071,ARS Madison-West-Greenhouse#1,None,None,None,8502 Mineral Point Rd,53593-9689
+9072,ARS Madison-West-Storage Bldg#1,None,None,None,8502 Mineral Point Rd,53593-9689
+9073,ARS Madison-West-Greenhouse#2,None,None,None,8502 Mineral Point Rd,53593-9689
+9074,ARS Madison-West-High Tunnel#1,None,None,None,8502 Mineral Point Rd,53593-9689
+9075,ARS Madison-West-High Tunnel#2,None,None,None,8502 Mineral Point Rd,53593-9689
+9076,ARS Madison-West-High Tunnel#3,None,None,None,8502 Mineral Point Rd,53593-9689
+9080,US Forage Resh Ctr-Grounds,None,None,None,S8822 Sunset Dr,53578-0000
+9081,US Forage Resh Ctr-Employee Housing 1,None,None,None,S8822 Sunset Dr,53578-0000
+9082,US Forage Resh Ctr-Employee Housing 2,None,None,None,S8822 Sunset Dr,53578-0000
+9083,US Forage Resh Ctr-Dry Cow Barn,None,None,None,S8822 Sunset Dr,53578-0000
+9084,US Forage Resh Ctr-Storage 40x50,None,None,None,S8822 Sunset Dr,53578-0000
+9085,US Forage Resh Ctr-Grain Bin 3,None,None,None,S8822 Sunset Dr,53578-0000
+9086,US Forage Resh Ctr-Grain Bin 2,None,None,None,S8822 Sunset Dr,53578-0000
+9101,US Forage Resh Ctr-Grain Bin 1,None,None,None,S8822 Sunset Dr,53578-0000
+9102,US Forage Resh Ctr-Chemical Storage,None,None,None,S8822 Sunset Dr,53578-0000
+9103,US Forage Resh Ctr-Cow Maternity Barn,None,None,None,S8822 Sunset Dr,53578-0000
+9104,US Forage Resh Ctr-Machine Shed,None,None,None,S8822 Sunset Dr,53578-0000
+9151,ARS Hancock-Visitor Center,None,None,None,N3909 Cty Rd V,54943-7547
+9152,ARS Hancock-Outdoor Pavillion,None,None,None,N3909 Cty Rd V,54943-7547
+9153,ARS Hancock-Storage Shed-Parts,None,None,None,N3909 Cty Rd V,54943-7547
+9154,ARS Hancock-Potato Strg Research,None,None,None,N3909 Cty Rd V,54943-7547
+9155,ARS Hancock-Machinery Storage,None,None,None,N3909 Cty Rd V,54943-7547
+9200,Soils & Plant Analysis Laboratory,None,None,None,8452 Mineral Point Rd,53593-8696
+9225,ARS Rhine-Stella-Machine Shed#2,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+9226,ARS Rhine-Stella-Machine Shed#3,None,None,None,4181 Camp Bryn Afon Rd,54501-9562
+9227,ARS Rhine-Stella-Storage Barn 1,None,None,None,4118 Camp Bryn Afon Rd,54501-9562
+9250,ARS Marshfield-N-Heifer Research Barn,None,None,None,208356 Drake Ave,54484-4476
+9251,ARS Marshfield-N-Calf Barn,None,None,None,208356 Drake Ave,54484-4476
+9252,ARS Marshfield-N-Feed Center,None,None,None,208356 Drake Ave,54484-4476
+9253,ARS Marshfield-N-Farm Shop,None,None,None,208356 Drake Ave,54484-4476
+9254,ARS Marshfield-N-Grounds,None,None,None,208356 Drake Ave,54484-4476
+9255,ARS Marshfield-N-Feed Pad 1,None,None,None,208356 Drake Ave,54484-4476
+9265,ARS Marshfield-N-Heifer Barn 2,None,None,None,208356 Drake Ave,54484-4476
+9266,ARS Marshfield-N-Dairy Barn,None,None,None,208356 Drake Ave,54484-4476
+9267,ARS Marshfield-N-Milking Parlor,None,None,None,208356 Drake Ave,54484-4476
+9269,ARS Marshfield-N-Animal Health,None,None,None,208356 Drake Ave,54484-4476
+9275,ARS Marshfield-N-Manure Storage,None,None,None,208356 Drake Ave,54484-4476
+9276,ARS Marshfield-N-Manure Treatment,None,None,None,208356 Drake Ave,54484-4476
+9502,Parking Lot 132,None,None,None,408 N Lake St,53706-1030
+9504,Parking Lot 4,None,None,None,437 Easterday Ln,53706-1253
+9506,Parking Lot 5,None,None,None,430 N Park St,53706-1406
+9507,Parking Garage 6-HC White,None,None,None,600 N Park St,53706-1403
+9508,Parking Garage 7-Grainger,None,None,None,325 N Brooks St,53706-0000
+9509,Parking Lot 8,None,None,None,640 N Park St,53706-1403
+9510,Parking Lot 9,None,None,None,955 Observatory Dr,53706-0000
+9511,Parking Lot 10,None,None,None,1001 Observatory Dr,53706-0000
+9512,Parking Lot 11,None,None,None,1125 Observatory Dr,53706-1319
+9513,Parking Lot 12,None,None,None,1850 Linden Dr,53706-1111
+9514,Parking Lot 13,None,None,None,1217 W Johnson St,53706-1046
+9516,Parking Lot 16,None,None,None,48 N Randall Ave,53706-0000
+9518,Parking Lot 18,None,None,None,1420 Monroe St,53706-2051
+9519,Parking Lot 19,None,None,None,15 N Breese Ter,53726-4101
+9520,Parking Lot 21,None,None,None,1221 Linden Dr,53706-1528
+9522,Parking Garage 23-Van Hise,None,None,None,1220 Linden Dr,53706-1525
+9524,Parking Lot 26-East,None,None,None,1190 Observatory Dr,53706-1320
+9525,Parking Lot 26-Upper,None,None,None,1275 Observatory Dr,53706-1211
+9526,Parking Lot 26-Lower,None,None,None,1411 Observatory Dr,53706-1209
+9527,Parking Garage 27-Nicholas Hall,None,None,None,1320 Linden Dr,53706-0000
+9529,Parking Lot 28,None,None,None,465 Lorch St,53706-1513
+9530,Parking Ramp 29-21 N Park St,None,None,None,21 N Park St,53715-1218
+9531,Parking Lot 30,None,None,None,450 Henry Mall,53706-1533
+9533,Parking Lot 34,None,None,None,1480 Tripp Cir,53706-0000
+9534,Parking Lot 35,None,None,None,655 Babcock Dr,53706-1204
+9535,Parking Lot 37,None,None,None,651 Elm Dr,53706-1136
+9536,Parking Lot 26-West,None,None,None,1565 Observatory Dr,53706-1215
+9537,Parking Garage 38-Microbial,None,None,None,545 Babcock Dr,53706-1201
+9538,Parking Lot 39,None,None,None,1811 Linden Dr,53706-1110
+9539,Parking Lot 40,None,None,None,1655 Linden Dr,53706-1536
+9540,Parking Lot 41,None,None,None,1820 University Ave,53726-4090
+9542,Parking Lot 44,None,None,None,965 W Dayton St,53715-1126
+9544,Parking Lot 45,None,None,None,165 N Mills St,53715-1302
+9546,Parking Lot 51,None,None,None,30 N Mills St,53715-1211
+9547,Parking Lot 81-North,None,None,None,40 N Charter St,53715-0000
+9549,Parking Lot 53,None,None,None,155 N Charter St,53715-1142
+9551,Parking Lot 54,None,None,None,112 N Charter St,53715-0000
+9552,Parking Lot 86,None,None,None,210 N Mills St,53706-0000
+9553,Parking Lot 56,None,None,None,255 N Charter St,53715-1144
+9554,Parking Lot 57,None,None,None,2075 Willow Dr,53706-1128
+9555,Parking Lot 58,None,None,None,1960 Willow Dr,53706-1127
+9556,Parking Lot 59,None,None,None,2125 Observatory Dr,53706-1012
+9557,Parking Lot 60,None,None,None,801 Walnut St,53726-0000
+9559,Parking Lot 74,None,None,None,750 Highland Ave,53705-2221
+9561,Parking Lot 137,None,None,None,1625 Highland Ave,53706-0000
+9562,Parking Lot 64,None,None,None,606 Walnut St,53726-2336
+9563,Parking Lot 65,None,None,None,608 Walnut St,53726-2336
+9564,Parking Lot 14,None,None,None,1505 Engineering Dr,53706-1603
+9566,Parking Lot 68,None,None,None,870 W Dayton St,53703-2318
+9567,Parking Lot 69,None,None,None,280 N Frances St,53706-0000
+9570,Parking Lot 72,None,None,None,503 Walnut St,53726-2334
+9573,Parking Ramp 76-University Bay Dr,None,None,None,2501 University Bay Dr,53706-0000
+9575,Parking Lot 81-South,None,None,None,1280 Capitol Ct,53706-1237
+9576,Parking Lot 82,None,None,None,1450 Highland Ave,53705-0000
+9577,Parking Garage 83-Fluno Ctr,None,None,None,314 N Frances St,53703-0000
+9579,Parking Lot 88,None,None,None,105 East Campus Mall,53715-1210
+9580,Parking Lot 91,None,None,None,115 N Frances St,53703-1922
+9581,Parking Lot 48,None,None,None,120 East Campus Mall,53715-0000
+9582,Parking Lot 92,None,None,None,1015 Clymer Pl,53715-1120
+9585,Parking Garage 95-HSLC,None,None,None,950 Highland Ave,53705-2221
+9587,Parking Lot 87,None,None,None,701 W Dayton St,53715-0000
+9588,Parking Garage 80-Union South,None,None,None,1308 W Dayton St,53715-1149
+9589,Parking Garage 15,None,None,None,1432 Monroe St,53711
+9590,Parking Lot 85,None,None,None,2280 Observatory Dr,53726-0000
+9593,Parking Lot 33,None,None,None,130 N Mills St,53715-0000
+9594,Parking Lot 94,None,None,None,107 N Frances St,53703-0000
+9598,Parking Ramp 67-Linden Dr,None,None,None,2002 Linden Dr,53706-0000
+9601,Parking Lot 101,None,None,None,652 N Lake St,53706-1410
+9602,Parking Lot 102,None,None,None,550 N Lake St,53706-0000
+9605,Parking Lot 105,None,None,None,475 N Park St,53706-1405
+9606,Parking Lot 106,None,None,None,825 W Johnson St,53703-1701
+9609,Parking Lot 109,None,None,None,355 N Park St,53706-1300
+9610,Parking Lot 110,None,None,None,960 University Ave,53706-1300
+9613,Parking Lot 113,None,None,None,1298 W Dayton St,53706-0000
+9614,Parking Lot 114,None,None,None,1420 Engineering Dr,53706-1608
+9615,Parking Lot 115,None,None,None,445 N Charter St,53706-1507
+9616,Parking Lot 116,None,None,None,440 N Charter St,53706-0000
+9620,Parking Lot 120,None,None,None,1455 Observatory Dr,53706-1209
+9621,Parking Lot 121,None,None,None,622 Babcock Dr,53706-1210
+9623,Parking Lot 123,None,None,None,1975 Linden Dr,53706-1108
+9624,Parking Lot 124,None,None,None,465 Easterday Ln,53706-0000
+9625,Parking Lot 125,None,None,None,455 Easterday Ln,53706-0000
+9627,Parking Lot 127,None,None,None,702 Walnut St,53726-0000
+9630,Parking Lot 130,None,None,None,2003 University Bay Dr,53706-0000
+9631,Parking Lot 131,None,None,None,1601 University Bay Dr,53706-0000
+9633,Parking Lot 133,None,None,None,910 Highland Ter,53705-0000
+9634,Parking Lot 134,None,None,None,930 Highland Ter,53705-0000
+9635,Parking Lot 135,None,None,None,2415 University Bay Dr,53706-0000
+9636,Parking Lot 136,None,None,None,23 N Park St,53715-1218
+9638,Parking Lot 138,None,None,None,314 N Frances St,53703-0000
+9639,Parking Lot 139,None,None,None,1575 Highland Ave,53706-0000
+9650,Parking Lot 50,None,None,None,33 N Charter St,53715-0000
+9652,Parking Lot 61,None,None,None,930 Clymer Pl,53705-0000
+9655,Parking Lot 55,None,None,None,335 N Charter St,53715-0000
+9657,Parking Lot 107,None,None,None,754 University Ave,53706-1411
+9669,Park & Ride Lot 202,None,None,None,812 W Wingra Dr,53715-0000
+9670,Park & Ride Lot 203 (Inactive),None,None,None,750 University Row,53705-1311
+9671,Park & Ride Lot 206,None,None,None,910 Oscar Ave,53704-4256
+9672,Parking Lot 2,None,None,None,620 N Frances St,53703-0000
+9701,Arboretum-Parking Lot 1,None,None,None,1350 Arboretum Dr,53711-0000
+9702,Arboretum-Parking Lot 2,None,None,None,1601 Arboretum Dr,53711-0000
+9703,Arboretum-Parking Lot 3,None,None,None,2760 Arboretum Dr,53711-0000
+9704,Arboretum-Parking Lot 4,None,None,None,2890 Longenecker Dr,53711-0000
+9705,Arboretum-Parking Lot 5,None,None,None,3502 McCaffery Dr,53711-0000
+9706,Arboretum-Parking Lot 6,None,None,None,1801 Seminole Hwy,53711-0000
+9707,Arboretum-Parking Lot 7,None,None,None,2201 Martin St,53713-1145
+9708,Arboretum-Parking Lot 8,None,None,None,3091 Arboretum Dr,53711-0000
+9709,Arboretum-Parking Lot 9,None,None,None,1101 Arboretum Dr,53711-0000
+9710,Arboretum-Parking Lot 10,None,None,None,3621 Nakoma Rd,53711-2910
+9711,Arboretum-Arbor Dr Lot,None,None,None,3091 Arbor Dr,53711-0000
+9940,Miscellaneous Housing,None,None,None,For Business Services Purposes,00000-0000
+9950,Miscellaneous Buildings,None,None,None,For Business Services Purposes,00000-0000
