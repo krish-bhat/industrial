@@ -379,25 +379,25 @@
       margin-bottom: 6px;
     }
 
+    .tag-row input,
+    .tag-row button {
+      font-size: 0.78rem;
+    }
+
     .tag-row input {
-      font-size: 0.8rem;
       padding: 4px 8px;
       border-radius: 999px;
       border: 1px solid var(--border-soft);
-      min-width: 120px;
-    }
-
-    .tag-row input[type="date"] {
-      padding: 3px 8px;
+      min-width: 140px;
     }
 
     .tag-row button {
-      font-size: 0.78rem;
       padding: 5px 10px;
       border-radius: 999px;
       border: 1px solid var(--border-soft);
       background: #fff;
       cursor: pointer;
+      white-space: nowrap;
     }
 
     .tag-row button.primary {
@@ -455,13 +455,11 @@
       animation: spin 0.8s linear infinite;
     }
 
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
+    @keyframes spin { to { transform: rotate(360deg); } }
   </style>
 </head>
 <body>
-  <!-- NEW: global loading overlay -->
+  <!-- global loading overlay -->
   <div id="globalLoading" class="loading-overlay">
     <div class="loading-box">
       <div class="spinner"></div>
@@ -546,14 +544,14 @@
               <input id="customTagLabel" placeholder="Tag label (e.g. Finals Week)" />
               <input id="customTagName" placeholder="Event name (optional)" />
               <input id="customTagDesc" placeholder="Description / notes (optional)" />
-              <!-- changed to calendar pickers -->
+              <!-- calendar pickers -->
               <input id="customTagStart" type="date" />
               <input id="customTagEnd" type="date" />
               <button id="addCustomTagBtn" class="primary" type="button">Add tag to range</button>
               <button id="removeCustomTagBtn" type="button">Remove tag from range</button>
             </div>
             <div class="filter-row">
-              <div>Filter by tag (built-in or custom)</div>
+              <div>Filter dates by</div>
               <select id="tagFilterSelect">
                 <option value="all">All dates</option>
               </select>
@@ -567,18 +565,19 @@
   <script>
     // ====== CONFIG ======
     const API_BASE = "https://industrial-production.up.railway.app";
+    // For local testing you can temporarily switch to:
+    // const API_BASE = "http://localhost:3000";
 
     // ====== STATE ======
-    // customTags: Map<dateKeyString, Array<{label, name, desc}>>
     const state = {
       monthData: new Map(),
-      customTags: new Map(),
+      customTags: new Map(),  // Map<dateKeyString, Array<{label, name, desc}>>
       selectedDateKey: null,
       year: 2020,
       month: 5, // May 2020
     };
 
-    // ====== LOADING OVERLAY HELPERS ======
+    // ====== LOADING OVERLAY ======
     let loadingCount = 0;
 
     function pushLoading() {
@@ -595,11 +594,35 @@
       }
     }
 
-    // ====== HELPERS ======
-    function formatDateLabel(isoDate) {
-      if (!isoDate) return "";
-      const d = new Date(isoDate);
-      if (Number.isNaN(d.getTime())) return isoDate;
+    // ====== DATE HELPERS ======
+    // Parse "dd-mm-yyyy" or "yyyy-mm-dd" into a JS Date
+    function parseKnownDateString(raw) {
+      if (typeof raw !== "string") return null;
+
+      if (/^\d{2}-\d{2}-\d{4}$/.test(raw)) {
+        // dd-mm-yyyy
+        const [dd, mm, yyyy] = raw.split("-").map(n => parseInt(n, 10));
+        if (isNaN(dd) || isNaN(mm) || isNaN(yyyy)) return null;
+        return new Date(yyyy, mm - 1, dd);
+      }
+
+      if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) {
+        // yyyy-mm-dd
+        const [yyyy, mm, dd] = raw.split("-").map(n => parseInt(n, 10));
+        if (isNaN(dd) || isNaN(mm) || isNaN(yyyy)) return null;
+        return new Date(yyyy, mm - 1, dd);
+      }
+
+      return null;
+    }
+
+    function formatDateLabel(raw) {
+      if (!raw) return "";
+      let d = parseKnownDateString(raw);
+      if (!d) {
+        d = new Date(raw);
+        if (Number.isNaN(d.getTime())) return String(raw);
+      }
       return d.toLocaleDateString(undefined, {
         year: "numeric",
         month: "long",
@@ -607,6 +630,31 @@
       });
     }
 
+    // Turn the value from the <input type="date"> (or dd-mm-yyyy) into a date_key (yyyy*10000 + mm*100 + dd)
+    function parseDateKeyFromInput(value) {
+      if (!value) return null;
+      const parts = value.split("-");
+      if (parts.length !== 3) return null;
+
+      let year, month, day;
+
+      if (parts[0].length === 4) {
+        // yyyy-mm-dd (browser date input)
+        year  = parseInt(parts[0], 10);
+        month = parseInt(parts[1], 10);
+        day   = parseInt(parts[2], 10);
+      } else {
+        // dd-mm-yyyy
+        day   = parseInt(parts[0], 10);
+        month = parseInt(parts[1], 10);
+        year  = parseInt(parts[2], 10);
+      }
+
+      if ([year, month, day].some(isNaN)) return null;
+      return year * 10000 + month * 100 + day;
+    }
+
+    // ====== COUNTS & CUSTOM TAGS ======
     function getCountsForDay(day) {
       const counts = {
         events: 0,
@@ -639,7 +687,6 @@
       return list || [];
     }
 
-    // --- persistence for custom tags (localStorage, per browser) ---
     function saveCustomTagsToStorage() {
       try {
         const obj = {};
@@ -697,15 +744,7 @@
       saveCustomTagsToStorage();
     }
 
-    // now expecting HTML date value "YYYY-MM-DD"
-    function parseDateKeyFromInput(value) {
-      if (!value) return null;
-      const parts = value.split("-").map(p => parseInt(p.trim(), 10));
-      if (parts.length !== 3 || parts.some(isNaN)) return null;
-      const [year, month, day] = parts; // HTML date is yyyy-mm-dd
-      return year * 10000 + month * 100 + day;
-    }
-
+    // ====== STATS LINE ======
     function formatMonthStats(stats) {
       if (!stats) {
         return 'Loaded: <span class="text-danger">could not load stats from MySQL (check backend).</span>';
@@ -718,30 +757,6 @@
       if (stats.weather   != null) pieces.push(`${stats.weather} weather rows`);
       if (stats.academic  != null) pieces.push(`${stats.academic} academic rows`);
       return "Loaded: " + pieces.join(", ");
-    }
-
-    // ====== FILTER OPTIONS (built-in + custom) ======
-    const BUILTIN_FILTERS = [
-      { value: "all",         label: "All dates" },
-      { value: "has-events",  label: "Days with events" },
-      { value: "has-academic",label: "Days with academic" },
-      { value: "has-sports",  label: "Days with sports" },
-      { value: "has-closures",label: "Days with closures" },
-      { value: "has-parking", label: "Days with parking / occupancy" },
-      { value: "has-weather", label: "Days with weather" },
-    ];
-
-    function setBaseFilterOptions(selectEl, currentValue) {
-      selectEl.innerHTML = "";
-      BUILTIN_FILTERS.forEach(f => {
-        const opt = document.createElement("option");
-        opt.value = f.value;
-        opt.textContent = f.label;
-        selectEl.appendChild(opt);
-      });
-      if (currentValue && BUILTIN_FILTERS.some(f => f.value === currentValue)) {
-        selectEl.value = currentValue;
-      }
     }
 
     // ====== RENDER: MONTH GRID ======
@@ -766,7 +781,8 @@
         cells.push({ day, dateKey, dayData });
       }
 
-      const tagFilter = document.getElementById("tagFilterSelect").value;
+      const filterSel = document.getElementById("tagFilterSelect");
+      const filter = filterSel ? filterSel.value : "all";
 
       for (const cell of cells) {
         const div = document.createElement("div");
@@ -779,29 +795,27 @@
 
         const { day, dateKey, dayData } = cell;
         const counts = getCountsForDay(dayData);
-        const total = sumCounts(counts);
         const customTags = getCustomTagsFor(dateKey);
 
-        // --- filtering ---
-        let hide = false;
-        if (tagFilter === "has-events"   && !counts.events)   hide = true;
-        if (tagFilter === "has-academic" && !counts.academic) hide = true;
-        if (tagFilter === "has-sports"   && !counts.sports)   hide = true;
-        if (tagFilter === "has-closures" && !counts.closures) hide = true;
-        if (tagFilter === "has-parking"  && !counts.parking)  hide = true;
-        if (tagFilter === "has-weather"  && !counts.weather)  hide = true;
+        // Filter logic
+        let keep = true;
+        if (filter === "events" && !counts.events) keep = false;
+        if (filter === "academic" && !counts.academic) keep = false;
+        if (filter === "sports" && !counts.sports) keep = false;
+        if (filter === "closures" && !counts.closures) keep = false;
+        if (filter === "parking" && !counts.parking) keep = false;
+        if (filter === "weather" && !counts.weather) keep = false;
 
-        if (tagFilter.startsWith("custom:")) {
-          const label = tagFilter.slice("custom:".length);
-          if (!customTags.some(t => t.label === label)) hide = true;
+        if (filter.startsWith("custom:")) {
+          const label = filter.slice("custom:".length);
+          if (!customTags.some(t => t.label === label)) keep = false;
         }
 
-        if (hide) {
+        if (!keep) {
           div.className = "day-cell empty";
           grid.appendChild(div);
           continue;
         }
-        // --- end filtering ---
 
         div.className = "day-cell";
         div.dataset.dateKey = String(dateKey);
@@ -844,9 +858,9 @@
         const summary = document.createElement("div");
         summary.className = "day-summary";
         const parts = [];
+        const total = sumCounts(counts);
         if (total) parts.push(total + " items");
 
-        // distinct labels for that date
         const labelSet = new Set(customTags.map(t => t.label));
         const labelList = Array.from(labelSet);
         if (labelList.length) parts.push(labelList.join(", "));
@@ -880,7 +894,6 @@
       const scroll = document.getElementById("detailScroll");
 
       const dateLabel = formatDateLabel(payload.date || payload.date_iso);
-
       detailTitle.textContent = dateLabel || "Details";
       detailSub.textContent = "";
       detailDateKey.textContent = "date_key: " + dateKey;
@@ -923,10 +936,10 @@
         scroll.appendChild(sec);
       }
 
-      makeSection("Events", "dot--event",    payload.events   || payload.event_list);
+      makeSection("Events",   "dot--event",    payload.events   || payload.event_list);
       makeSection("Academic", "dot--academic", payload.academic || payload.academic_calendar);
-      makeSection("Sports", "dot--sport",    payload.sports);
-      makeSection("Closures", "dot--closure",payload.closures);
+      makeSection("Sports",   "dot--sport",    payload.sports);
+      makeSection("Closures", "dot--closure",  payload.closures);
       makeSection("Parking / Occupancy", "dot--parking", payload.occupancy || payload.parking);
 
       if (payload.weather) {
@@ -1128,6 +1141,61 @@
       });
     }
 
+    // Build the filter dropdown: core categories + custom tags
+    function refreshFilterOptions() {
+      const filterSel = document.getElementById("tagFilterSelect");
+      if (!filterSel) return;
+
+      const previous = filterSel.value;
+
+      // Clear
+      filterSel.innerHTML = "";
+
+      function addOption(value, label) {
+        const opt = document.createElement("option");
+        opt.value = value;
+        opt.textContent = label;
+        filterSel.appendChild(opt);
+      }
+
+      addOption("all", "All dates");
+      addOption("events", "Dates with events");
+      addOption("academic", "Dates with academic calendar");
+      addOption("sports", "Dates with sports");
+      addOption("closures", "Dates with closures");
+      addOption("parking", "Dates with parking / occupancy");
+      addOption("weather", "Dates with weather");
+
+      // Collect unique custom labels
+      const labels = new Set();
+      for (const list of state.customTags.values()) {
+        for (const tag of list) labels.add(tag.label);
+      }
+
+      const customLabels = Array.from(labels).sort();
+      if (customLabels.length) {
+        const group = document.createElement("optgroup");
+        group.label = "Custom tags";
+        customLabels.forEach(label => {
+          const opt = document.createElement("option");
+          opt.value = "custom:" + label;
+          opt.textContent = label;
+          group.appendChild(opt);
+        });
+        filterSel.appendChild(group);
+      }
+
+      // restore selection if still valid
+      const validValues = new Set(
+        Array.from(filterSel.querySelectorAll("option")).map(o => o.value)
+      );
+      if (validValues.has(previous)) {
+        filterSel.value = previous;
+      } else {
+        filterSel.value = "all";
+      }
+    }
+
     function initCustomTagUI() {
       const labelInput = document.getElementById("customTagLabel");
       const nameInput  = document.getElementById("customTagName");
@@ -1138,37 +1206,6 @@
       const rmBtn      = document.getElementById("removeCustomTagBtn");
       const filterSel  = document.getElementById("tagFilterSelect");
 
-      function refreshFilterOptions() {
-        const current = filterSel.value;
-
-        // reset built-in options first
-        setBaseFilterOptions(filterSel, current);
-
-        // add custom labels
-        const allLabels = new Set();
-        for (const list of state.customTags.values()) {
-          for (const tag of list) allLabels.add(tag.label);
-        }
-        for (const lab of allLabels) {
-          const opt = document.createElement("option");
-          opt.value = "custom:" + lab;
-          opt.textContent = `Custom – ${lab}`;
-          filterSel.appendChild(opt);
-        }
-
-        // restore selection if still valid
-        const possibleValues = new Set(
-          BUILTIN_FILTERS.map(f => f.value)
-        );
-        for (const lab of allLabels) {
-          possibleValues.add("custom:" + lab);
-        }
-
-        if (possibleValues.has(current)) {
-          filterSel.value = current;
-        }
-      }
-
       filterSel.addEventListener("change", () => {
         renderMonthGrid();
       });
@@ -1177,31 +1214,33 @@
         const label = labelInput.value.trim();
         const name  = nameInput.value.trim();
         const desc  = descInput.value.trim();
-        const s = parseDateKeyFromInput(startInput.value);
-        const e = parseDateKeyFromInput(endInput.value);
+        const s = parseDateKeyFromInput(startInput.value.trim());
+        const e = parseDateKeyFromInput(endInput.value.trim());
         if (!label || !s || !e) {
-          alert("Please provide label and valid start/end date (using the date pickers).");
+          alert("Please provide label and valid start/end dates.");
           return;
         }
         addCustomTagRange(label, name, desc, s, e);
+        saveCustomTagsToStorage();
         refreshFilterOptions();
         renderMonthGrid();
       });
 
       rmBtn.addEventListener("click", () => {
         const label = labelInput.value.trim();
-        const s = parseDateKeyFromInput(startInput.value);
-        const e = parseDateKeyFromInput(endInput.value);
+        const s = parseDateKeyFromInput(startInput.value.trim());
+        const e = parseDateKeyFromInput(endInput.value.trim());
         if (!label || !s || !e) {
-          alert("Please provide label and valid start/end date (using the date pickers).");
+          alert("Please provide label and valid start/end dates.");
           return;
         }
         removeCustomTagRange(label, s, e);
+        saveCustomTagsToStorage();
         refreshFilterOptions();
         renderMonthGrid();
       });
 
-      // initial population of filter
+      // initial options populated from any stored tags
       refreshFilterOptions();
     }
 
@@ -1215,7 +1254,7 @@
 
     // ====== INIT ======
     (function init() {
-      loadCustomTagsFromStorage();   // restore saved tags (per browser)
+      loadCustomTagsFromStorage();
       initMonthYearSelectors();
       initCustomTagUI();
       initReloadButton();
