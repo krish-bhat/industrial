@@ -387,6 +387,10 @@
       min-width: 120px;
     }
 
+    .tag-row input[type="date"] {
+      padding: 3px 8px;
+    }
+
     .tag-row button {
       font-size: 0.78rem;
       padding: 5px 10px;
@@ -537,19 +541,19 @@
           <div id="detailScroll" class="detail-scroll"></div>
 
           <div class="tag-tools">
-            <h4>Add custom tag to date range (frontend only, saved in browser)</h4>
+            <h4>Add custom tag to date range (frontend only, saved in this browser)</h4>
             <div class="tag-row">
               <input id="customTagLabel" placeholder="Tag label (e.g. Finals Week)" />
-              <!-- name + description for custom tag -->
               <input id="customTagName" placeholder="Event name (optional)" />
               <input id="customTagDesc" placeholder="Description / notes (optional)" />
-              <input id="customTagStart" placeholder="dd-mm-yyyy" />
-              <input id="customTagEnd" placeholder="dd-mm-yyyy" />
+              <!-- changed to calendar pickers -->
+              <input id="customTagStart" type="date" />
+              <input id="customTagEnd" type="date" />
               <button id="addCustomTagBtn" class="primary" type="button">Add tag to range</button>
               <button id="removeCustomTagBtn" type="button">Remove tag from range</button>
             </div>
             <div class="filter-row">
-              <div>Filter by custom tag</div>
+              <div>Filter by tag (built-in or custom)</div>
               <select id="tagFilterSelect">
                 <option value="all">All dates</option>
               </select>
@@ -562,13 +566,7 @@
 
   <script>
     // ====== CONFIG ======
-    // For Railway deployment, frontend and backend share the same origin.
-    // So we keep API_BASE empty and just call `/api/...`.
     const API_BASE = "https://industrial-production.up.railway.app";
-
-    // If you ever open index.html directly from your file system (file://)
-    // instead of being served by Node, temporarily set:
-    // const API_BASE = "http://localhost:3000";
 
     // ====== STATE ======
     // customTags: Map<dateKeyString, Array<{label, name, desc}>>
@@ -597,7 +595,7 @@
       }
     }
 
-    // ====== HELPERS ======  
+    // ====== HELPERS ======
     function formatDateLabel(isoDate) {
       if (!isoDate) return "";
       const d = new Date(isoDate);
@@ -641,7 +639,7 @@
       return list || [];
     }
 
-    // --- NEW: persistence for custom tags (localStorage) ---
+    // --- persistence for custom tags (localStorage, per browser) ---
     function saveCustomTagsToStorage() {
       try {
         const obj = {};
@@ -699,11 +697,12 @@
       saveCustomTagsToStorage();
     }
 
-    function parseDateKeyFromDMY(dmy) {
-      if (!dmy) return null;
-      const parts = dmy.split("-").map(p => parseInt(p.trim(), 10));
+    // now expecting HTML date value "YYYY-MM-DD"
+    function parseDateKeyFromInput(value) {
+      if (!value) return null;
+      const parts = value.split("-").map(p => parseInt(p.trim(), 10));
       if (parts.length !== 3 || parts.some(isNaN)) return null;
-      const [day, month, year] = parts;
+      const [year, month, day] = parts; // HTML date is yyyy-mm-dd
       return year * 10000 + month * 100 + day;
     }
 
@@ -719,6 +718,30 @@
       if (stats.weather   != null) pieces.push(`${stats.weather} weather rows`);
       if (stats.academic  != null) pieces.push(`${stats.academic} academic rows`);
       return "Loaded: " + pieces.join(", ");
+    }
+
+    // ====== FILTER OPTIONS (built-in + custom) ======
+    const BUILTIN_FILTERS = [
+      { value: "all",         label: "All dates" },
+      { value: "has-events",  label: "Days with events" },
+      { value: "has-academic",label: "Days with academic" },
+      { value: "has-sports",  label: "Days with sports" },
+      { value: "has-closures",label: "Days with closures" },
+      { value: "has-parking", label: "Days with parking / occupancy" },
+      { value: "has-weather", label: "Days with weather" },
+    ];
+
+    function setBaseFilterOptions(selectEl, currentValue) {
+      selectEl.innerHTML = "";
+      BUILTIN_FILTERS.forEach(f => {
+        const opt = document.createElement("option");
+        opt.value = f.value;
+        opt.textContent = f.label;
+        selectEl.appendChild(opt);
+      });
+      if (currentValue && BUILTIN_FILTERS.some(f => f.value === currentValue)) {
+        selectEl.value = currentValue;
+      }
     }
 
     // ====== RENDER: MONTH GRID ======
@@ -759,15 +782,26 @@
         const total = sumCounts(counts);
         const customTags = getCustomTagsFor(dateKey);
 
-        // filter by tag label
-        if (
-          tagFilter !== "all" &&
-          !customTags.some(t => t.label === tagFilter)
-        ) {
+        // --- filtering ---
+        let hide = false;
+        if (tagFilter === "has-events"   && !counts.events)   hide = true;
+        if (tagFilter === "has-academic" && !counts.academic) hide = true;
+        if (tagFilter === "has-sports"   && !counts.sports)   hide = true;
+        if (tagFilter === "has-closures" && !counts.closures) hide = true;
+        if (tagFilter === "has-parking"  && !counts.parking)  hide = true;
+        if (tagFilter === "has-weather"  && !counts.weather)  hide = true;
+
+        if (tagFilter.startsWith("custom:")) {
+          const label = tagFilter.slice("custom:".length);
+          if (!customTags.some(t => t.label === label)) hide = true;
+        }
+
+        if (hide) {
           div.className = "day-cell empty";
           grid.appendChild(div);
           continue;
         }
+        // --- end filtering ---
 
         div.className = "day-cell";
         div.dataset.dateKey = String(dateKey);
@@ -932,7 +966,7 @@
         dot.className = "dot dot--event";
         h.appendChild(dot);
         const span = document.createElement("span");
-        span.textContent = " Custom tags (saved in browser)";
+        span.textContent = " Custom tags (saved in this browser)";
         h.appendChild(span);
         sec.appendChild(h);
 
@@ -1105,19 +1139,32 @@
       const filterSel  = document.getElementById("tagFilterSelect");
 
       function refreshFilterOptions() {
+        const current = filterSel.value;
+
+        // reset built-in options first
+        setBaseFilterOptions(filterSel, current);
+
+        // add custom labels
         const allLabels = new Set();
         for (const list of state.customTags.values()) {
           for (const tag of list) allLabels.add(tag.label);
         }
-        const current = filterSel.value;
-        filterSel.innerHTML = '<option value="all">All dates</option>';
         for (const lab of allLabels) {
           const opt = document.createElement("option");
-          opt.value = lab;
-          opt.textContent = lab;
+          opt.value = "custom:" + lab;
+          opt.textContent = `Custom – ${lab}`;
           filterSel.appendChild(opt);
         }
-        if ([...allLabels, "all"].includes(current)) {
+
+        // restore selection if still valid
+        const possibleValues = new Set(
+          BUILTIN_FILTERS.map(f => f.value)
+        );
+        for (const lab of allLabels) {
+          possibleValues.add("custom:" + lab);
+        }
+
+        if (possibleValues.has(current)) {
           filterSel.value = current;
         }
       }
@@ -1130,10 +1177,10 @@
         const label = labelInput.value.trim();
         const name  = nameInput.value.trim();
         const desc  = descInput.value.trim();
-        const s = parseDateKeyFromDMY(startInput.value.trim());
-        const e = parseDateKeyFromDMY(endInput.value.trim());
+        const s = parseDateKeyFromInput(startInput.value);
+        const e = parseDateKeyFromInput(endInput.value);
         if (!label || !s || !e) {
-          alert("Please provide label and valid start/end date (dd-mm-yyyy).");
+          alert("Please provide label and valid start/end date (using the date pickers).");
           return;
         }
         addCustomTagRange(label, name, desc, s, e);
@@ -1143,10 +1190,10 @@
 
       rmBtn.addEventListener("click", () => {
         const label = labelInput.value.trim();
-        const s = parseDateKeyFromDMY(startInput.value.trim());
-        const e = parseDateKeyFromDMY(endInput.value.trim());
+        const s = parseDateKeyFromInput(startInput.value);
+        const e = parseDateKeyFromInput(endInput.value);
         if (!label || !s || !e) {
-          alert("Please provide label and valid start/end date (dd-mm-yyyy).");
+          alert("Please provide label and valid start/end date (using the date pickers).");
           return;
         }
         removeCustomTagRange(label, s, e);
@@ -1154,7 +1201,7 @@
         renderMonthGrid();
       });
 
-      // when page first loads, populate filter with any stored tags
+      // initial population of filter
       refreshFilterOptions();
     }
 
@@ -1168,7 +1215,7 @@
 
     // ====== INIT ======
     (function init() {
-      loadCustomTagsFromStorage();   // restore saved tags first
+      loadCustomTagsFromStorage();   // restore saved tags (per browser)
       initMonthYearSelectors();
       initCustomTagUI();
       initReloadButton();
