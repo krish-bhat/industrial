@@ -418,7 +418,7 @@
 
     .text-danger { color: #b91c1c; }
 
-    /* ====== NEW: Loading overlay ====== */
+    /* Loading overlay */
     .loading-overlay {
       position: fixed;
       inset: 0;
@@ -565,7 +565,7 @@
   <script>
     // ====== CONFIG ======
     const API_BASE = "https://industrial-production.up.railway.app";
-    // For local testing you can temporarily switch to:
+    // For local testing you can switch to:
     // const API_BASE = "http://localhost:3000";
 
     // ====== STATE ======
@@ -595,19 +595,16 @@
     }
 
     // ====== DATE HELPERS ======
-    // Parse "dd-mm-yyyy" or "yyyy-mm-dd" into a JS Date
     function parseKnownDateString(raw) {
       if (typeof raw !== "string") return null;
 
       if (/^\d{2}-\d{2}-\d{4}$/.test(raw)) {
-        // dd-mm-yyyy
         const [dd, mm, yyyy] = raw.split("-").map(n => parseInt(n, 10));
         if (isNaN(dd) || isNaN(mm) || isNaN(yyyy)) return null;
         return new Date(yyyy, mm - 1, dd);
       }
 
       if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) {
-        // yyyy-mm-dd
         const [yyyy, mm, dd] = raw.split("-").map(n => parseInt(n, 10));
         if (isNaN(dd) || isNaN(mm) || isNaN(yyyy)) return null;
         return new Date(yyyy, mm - 1, dd);
@@ -630,7 +627,23 @@
       });
     }
 
-    // Turn the value from the <input type="date"> (or dd-mm-yyyy) into a date_key (yyyy*10000 + mm*100 + dd)
+    // NEW: build label purely from date_key (fixes mismatch)
+    function labelFromDateKey(dateKey) {
+      const dk = parseInt(dateKey, 10);
+      if (Number.isNaN(dk)) return "";
+      const year = Math.floor(dk / 10000);
+      const month = Math.floor((dk % 10000) / 100);
+      const day = dk % 100;
+      const d = new Date(year, month - 1, day);
+      if (Number.isNaN(d.getTime())) return "";
+      return d.toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      });
+    }
+
+    // Turn date input value into date_key
     function parseDateKeyFromInput(value) {
       if (!value) return null;
       const parts = value.split("-");
@@ -639,12 +652,10 @@
       let year, month, day;
 
       if (parts[0].length === 4) {
-        // yyyy-mm-dd (browser date input)
         year  = parseInt(parts[0], 10);
         month = parseInt(parts[1], 10);
         day   = parseInt(parts[2], 10);
       } else {
-        // dd-mm-yyyy
         day   = parseInt(parts[0], 10);
         month = parseInt(parts[1], 10);
         year  = parseInt(parts[2], 10);
@@ -799,12 +810,12 @@
 
         // Filter logic
         let keep = true;
-        if (filter === "events" && !counts.events) keep = false;
+        if (filter === "events"   && !counts.events)   keep = false;
         if (filter === "academic" && !counts.academic) keep = false;
-        if (filter === "sports" && !counts.sports) keep = false;
+        if (filter === "sports"   && !counts.sports)   keep = false;
         if (filter === "closures" && !counts.closures) keep = false;
-        if (filter === "parking" && !counts.parking) keep = false;
-        if (filter === "weather" && !counts.weather) keep = false;
+        if (filter === "parking"  && !counts.parking)  keep = false;
+        if (filter === "weather"  && !counts.weather)  keep = false;
 
         if (filter.startsWith("custom:")) {
           const label = filter.slice("custom:".length);
@@ -893,7 +904,8 @@
       const detailDateKey = document.getElementById("detailDateKey");
       const scroll = document.getElementById("detailScroll");
 
-      const dateLabel = formatDateLabel(payload.date || payload.date_iso);
+      // Use date_key so it always matches the square clicked
+      const dateLabel = labelFromDateKey(dateKey);
       detailTitle.textContent = dateLabel || "Details";
       detailSub.textContent = "";
       detailDateKey.textContent = "date_key: " + dateKey;
@@ -1076,6 +1088,56 @@
       }
     }
 
+    // ====== FILTER DROPDOWN (categories + custom tags) ======
+    function refreshFilterOptions() {
+      const filterSel = document.getElementById("tagFilterSelect");
+      if (!filterSel) return;
+
+      const previous = filterSel.value;
+      filterSel.innerHTML = "";
+
+      function addOption(value, label) {
+        const opt = document.createElement("option");
+        opt.value = value;
+        opt.textContent = label;
+        filterSel.appendChild(opt);
+      }
+
+      addOption("all", "All dates");
+      addOption("events", "Dates with events");
+      addOption("academic", "Dates with academic calendar");
+      addOption("sports", "Dates with sports");
+      addOption("closures", "Dates with closures");
+      addOption("parking", "Dates with parking / occupancy");
+      addOption("weather", "Dates with weather");
+
+      const labels = new Set();
+      for (const list of state.customTags.values()) {
+        for (const tag of list) labels.add(tag.label);
+      }
+      const customLabels = Array.from(labels).sort();
+      if (customLabels.length) {
+        const group = document.createElement("optgroup");
+        group.label = "Custom tags";
+        customLabels.forEach(label => {
+          const opt = document.createElement("option");
+          opt.value = "custom:" + label;
+          opt.textContent = label;
+          group.appendChild(opt);
+        });
+        filterSel.appendChild(group);
+      }
+
+      const validValues = new Set(
+        Array.from(filterSel.querySelectorAll("option")).map(o => o.value)
+      );
+      if (validValues.has(previous)) {
+        filterSel.value = previous;
+      } else {
+        filterSel.value = "all";
+      }
+    }
+
     // ====== UI WIRING ======
     function initMonthYearSelectors() {
       const monthSel = document.getElementById("monthSelect");
@@ -1141,61 +1203,6 @@
       });
     }
 
-    // Build the filter dropdown: core categories + custom tags
-    function refreshFilterOptions() {
-      const filterSel = document.getElementById("tagFilterSelect");
-      if (!filterSel) return;
-
-      const previous = filterSel.value;
-
-      // Clear
-      filterSel.innerHTML = "";
-
-      function addOption(value, label) {
-        const opt = document.createElement("option");
-        opt.value = value;
-        opt.textContent = label;
-        filterSel.appendChild(opt);
-      }
-
-      addOption("all", "All dates");
-      addOption("events", "Dates with events");
-      addOption("academic", "Dates with academic calendar");
-      addOption("sports", "Dates with sports");
-      addOption("closures", "Dates with closures");
-      addOption("parking", "Dates with parking / occupancy");
-      addOption("weather", "Dates with weather");
-
-      // Collect unique custom labels
-      const labels = new Set();
-      for (const list of state.customTags.values()) {
-        for (const tag of list) labels.add(tag.label);
-      }
-
-      const customLabels = Array.from(labels).sort();
-      if (customLabels.length) {
-        const group = document.createElement("optgroup");
-        group.label = "Custom tags";
-        customLabels.forEach(label => {
-          const opt = document.createElement("option");
-          opt.value = "custom:" + label;
-          opt.textContent = label;
-          group.appendChild(opt);
-        });
-        filterSel.appendChild(group);
-      }
-
-      // restore selection if still valid
-      const validValues = new Set(
-        Array.from(filterSel.querySelectorAll("option")).map(o => o.value)
-      );
-      if (validValues.has(previous)) {
-        filterSel.value = previous;
-      } else {
-        filterSel.value = "all";
-      }
-    }
-
     function initCustomTagUI() {
       const labelInput = document.getElementById("customTagLabel");
       const nameInput  = document.getElementById("customTagName");
@@ -1240,7 +1247,7 @@
         renderMonthGrid();
       });
 
-      // initial options populated from any stored tags
+      // initial options populated from stored tags
       refreshFilterOptions();
     }
 

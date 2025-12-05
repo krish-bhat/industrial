@@ -1,4 +1,4 @@
-// server.js  — final version for Railway + MySQL
+// server.js — Railway + MySQL backend
 
 require("dotenv").config();
 const express = require("express");
@@ -33,7 +33,7 @@ app.get("/health", async (req, res) => {
   }
 });
 
-// ===== API: GLOBAL STATS (this was already working) =====
+// ===== API: GLOBAL STATS =====
 app.get("/api/stats", async (req, res) => {
   try {
     const [rows] = await pool.query(`
@@ -51,7 +51,7 @@ app.get("/api/stats", async (req, res) => {
   }
 });
 
-// ===== API: MONTH DATA WITH COUNTS (DRIVES CALENDAR DOTS) =====
+// ===== API: MONTH DATA (for calendar dots) =====
 app.get("/api/month", async (req, res) => {
   try {
     const { year, month } = req.query;
@@ -67,7 +67,7 @@ app.get("/api/month", async (req, res) => {
 
     // date_key like 20200501 … 20200531
     const startKey = y * 10000 + m * 100 + 1;
-    const lastDay = new Date(y, m, 0).getDate(); // last day of that month
+    const lastDay = new Date(y, m, 0).getDate();
     const endKey = y * 10000 + m * 100 + lastDay;
 
     const [rows] = await pool.query(
@@ -75,12 +75,12 @@ app.get("/api/month", async (req, res) => {
       SELECT
         d.date_key,
         d.date,
-        (SELECT COUNT(*) FROM events            e WHERE e.date_key = d.date_key) AS event_count,
+        (SELECT COUNT(*) FROM events            e  WHERE e.date_key  = d.date_key) AS event_count,
         (SELECT COUNT(*) FROM academic_calendar ac WHERE ac.date_key = d.date_key) AS academic_count,
-        (SELECT COUNT(*) FROM sports            s WHERE s.date_key = d.date_key) AS sport_count,
-        (SELECT COUNT(*) FROM closures          c WHERE c.date_key = d.date_key) AS closure_count,
-        (SELECT COUNT(*) FROM occupancy         o WHERE o.date_key = d.date_key) AS occupancy_count,
-        (SELECT COUNT(*) FROM weather           w WHERE w.date_key = d.date_key) AS weather_count
+        (SELECT COUNT(*) FROM sports            s  WHERE s.date_key  = d.date_key) AS sport_count,
+        (SELECT COUNT(*) FROM closures          c  WHERE c.date_key  = d.date_key) AS closure_count,
+        (SELECT COUNT(*) FROM occupancy         o  WHERE o.date_key  = d.date_key) AS occupancy_count,
+        (SELECT COUNT(*) FROM weather           w  WHERE w.date_key  = d.date_key) AS weather_count
       FROM dates d
       WHERE d.date_key BETWEEN ? AND ?
       ORDER BY d.date_key
@@ -95,7 +95,7 @@ app.get("/api/month", async (req, res) => {
   }
 });
 
-// ===== API: DATE DETAILS (RIGHT-SIDE PANEL) =====
+// ===== API: DATE DETAILS (right panel) =====
 app.get("/api/date/:date_key", async (req, res) => {
   try {
     const dateKey = parseInt(req.params.date_key, 10);
@@ -152,5 +152,5 @@ app.get("/api/date/:date_key", async (req, res) => {
 // ===== START SERVER =====
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
